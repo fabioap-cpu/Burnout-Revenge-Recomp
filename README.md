@@ -56,7 +56,7 @@ findings, fixes, and open questions.
 - Windows AMD64
 - Git, CMake 3.25 or newer, Ninja, and Clang
 - a legally obtained, extracted Burnout Revenge (Xbox 360) game tree,
-  including `BurnoutRevenge_default.xex`
+  including `default.xex`
 
 ## Build
 
