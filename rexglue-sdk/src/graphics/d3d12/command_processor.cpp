@@ -40,6 +40,9 @@ REXCVAR_DEFINE_BOOL(diag_blend_constant, false, "Diagnostics",
                     "changes. Useful to rule out a wrong blend constant as the source of a "
                     "color/tint bug.");
 
+// Defined in src/graphics/command_processor.cpp.
+REXCVAR_DECLARE(bool, diag_gamma_ramp);
+
 REXCVAR_DEFINE_BOOL(d3d12_readback_memexport, false, "GPU/D3D12",
                     "Read data written by memory export in shaders on the CPU")
     .lifecycle(rex::cvar::Lifecycle::kHotReload);

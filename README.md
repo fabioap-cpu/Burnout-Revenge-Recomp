@@ -71,10 +71,25 @@ rexglue-sdk\out\win-amd64\bin\rexglue.exe codegen burnoutrevenge_manifest.toml
 cmake --build --preset win-amd64-release --parallel
 ```
 
-The build produces `burnoutrevenge.exe`, which loads its configured game
-directory automatically (edit `game_data_root` in `burnoutrevenge.toml`, or
-override it in `src/burnoutrevenge_app.h`'s `OnConfigurePaths`) - no
-`--game_data_root` command-line argument is required at runtime.
+The build produces `burnoutrevenge.exe`. Point it at your own extracted game
+tree with one of these (both tested, in order of precedence):
+
+1. **Command-line argument** (works every launch, no rebuild needed):
+   ```powershell
+   burnoutrevenge.exe --game_data_root="D:\path\to\extracted\Burnout Revenge"
+   ```
+2. **Zero-config default**: extract the game into a `game` folder next to the
+   exe (`out\build\win-amd64-release\game\default.xex`, etc.) and just run
+   `burnoutrevenge.exe` with no arguments.
+
+If neither is set, the game shows a clear dialog telling you which path it
+looked for and failed to find, rather than crashing.
+
+> **Note:** setting `game_data_root` in `burnoutrevenge.toml` does *not*
+> currently work - the shared SDK loads that config file after this path is
+> already resolved, so a toml-only override is silently ignored. Use the CLI
+> argument or the `game/` folder instead until that ordering is fixed
+> upstream.
 
 ## Diagnostics
 

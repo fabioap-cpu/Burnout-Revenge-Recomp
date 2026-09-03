@@ -41,6 +41,10 @@ REXCVAR_DEFINE_BOOL(direct_host_resolve, true, "GPU",
                     "Resolve from host render targets directly to shared memory when possible")
     .lifecycle(rex::cvar::Lifecycle::kHotReload);
 
+REXCVAR_DEFINE_BOOL(diag_rt_format, false, "Diagnostics",
+                    "Log the active color render target format whenever it changes. Useful "
+                    "to rule out a wrong/unexpected format as the source of a color bug.");
+
 namespace rex::graphics {
 
 void RenderTargetCache::GetPSIColorFormatInfo(xenos::ColorRenderTargetFormat format,

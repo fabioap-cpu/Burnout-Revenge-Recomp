@@ -18,9 +18,14 @@ class BurnoutrevengeApp : public rex::ReXApp {
         PPCImageConfig));
   }
 
-  // Hardcodes the game data root instead of requiring --game_data_root on
-  // every launch. Same pattern as ForzaHorizon2_Recomp/src/forzahorizon2_app.h
-  // OnConfigurePaths(). Path confirmed real in PROJECT_STATE.md (Fase 0/4).
+  // Resolve the game data root without requiring --game_data_root on every
+  // launch. `paths.game_data_root` already reflects a --game_data_root CLI
+  // override (or a `game_data_root` cvar set before this point) by the time
+  // this runs - the .toml config file itself loads too late in ReXApp's
+  // startup sequence to reach here, so a toml-only override won't apply.
+  // Only fall back to the relative default when nothing else provided one,
+  // so both the CLI override and a plain `<exe dir>/game/` extraction work
+  // out of the box on any machine.
   void OnConfigurePaths(rex::PathConfig& paths) override {
     auto cwd = std::filesystem::current_path();
     std::error_code ec;
@@ -28,9 +33,9 @@ class BurnoutrevengeApp : public rex::ReXApp {
     paths.user_data_root = cwd / "user";
     paths.cache_root = cwd / "cache";
 
-    std::filesystem::path game_dir =
-        "D:\\GAME RECOMP\\Burnout Revenge (Europe) (En,Es,Nl,Sv,Fi)";
-    paths.game_data_root = std::filesystem::weakly_canonical(game_dir);
+    if (paths.game_data_root.empty()) {
+      paths.game_data_root = std::filesystem::weakly_canonical(cwd / "game", ec);
+    }
     paths.update_data_root = paths.game_data_root;
 
     std::filesystem::create_directories(paths.user_data_root, ec);
