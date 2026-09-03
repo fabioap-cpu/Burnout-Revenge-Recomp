@@ -1,0 +1,1023 @@
+[0/2] Re-checking globbed directories...
+[1/39] Building CXX object rexglue-sdk/src/graphics/CMakeFiles/rexgpu-xenos.dir/D_/GAME_RECOMP/rexglue-sdk/thirdparty/dxbc/DXBCChecksum.cpp.obj
+[2/39] Linking CXX shared library "D:\GAME RECOMP\rexglue-sdk\out\win-amd64\rexruntime.dll"
+[3/39] Building CXX object rexglue-sdk/src/graphics/CMakeFiles/rexgpu-xenos.dir/pipeline/shader/interpreter.cpp.obj
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/shader/interpreter.cpp:17:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/shader/interpreter.h:19:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/format/ucode.h:17:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/xenos.h:1621:70: warning: unused parameter 'one_reg' [-Wunused-parameter]
+ 1621 | inline uint32_t MakePacketType0(uint16_t index, uint16_t count, bool one_reg = false) {
+      |                                                                      ^
+1 warning generated.
+[4/39] Building CXX object rexglue-sdk/src/graphics/CMakeFiles/rexgpu-xenos.dir/pipeline/shader/translator_disasm.cpp.obj
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/shader/translator_disasm.cpp:16:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/shader/translator.h:18:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/format/ucode.h:17:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/xenos.h:1621:70: warning: unused parameter 'one_reg' [-Wunused-parameter]
+ 1621 | inline uint32_t MakePacketType0(uint16_t index, uint16_t count, bool one_reg = false) {
+      |                                                                      ^
+1 warning generated.
+[5/39] Building CXX object rexglue-sdk/src/graphics/CMakeFiles/rexgpu-xenos.dir/shared_memory.cpp.obj
+D:/GAME RECOMP/rexglue-sdk/src/graphics/shared_memory.cpp:331:62: warning: unused parameter 'offset_allocations' [-Wunused-parameter]
+  331 | bool SharedMemory::AllocateSparseHostGpuMemoryRange(uint32_t offset_allocations,
+      |                                                              ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/shared_memory.cpp:332:62: warning: unused parameter 'length_allocations' [-Wunused-parameter]
+  332 |                                                     uint32_t length_allocations) {
+      |                                                              ^
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/shared_memory.cpp:19:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/shared_memory.h:173:9: warning: private field 'memory_data_provider_handle_' is not used [-Wunused-private-field]
+  173 |   void* memory_data_provider_handle_ = nullptr;
+      |         ^
+3 warnings generated.
+[6/39] Building CXX object rexglue-sdk/src/graphics/CMakeFiles/rexgpu-xenos.dir/pipeline/shader/dxbc.cpp.obj
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/shader/dxbc.cpp:14:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/shader/dxbc.h:17:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/shader/dxbc_translator.h:21:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/format/ucode.h:17:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/xenos.h:1621:70: warning: unused parameter 'one_reg' [-Wunused-parameter]
+ 1621 | inline uint32_t MakePacketType0(uint16_t index, uint16_t count, bool one_reg = false) {
+      |                                                                      ^
+1 warning generated.
+[7/39] Building CXX object rexglue-sdk/src/graphics/CMakeFiles/rexgpu-xenos.dir/pipeline/shader/translator.cpp.obj
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/shader/translator.cpp:21:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/shader/translator.h:18:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/format/ucode.h:17:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/xenos.h:1621:70: warning: unused parameter 'one_reg' [-Wunused-parameter]
+ 1621 | inline uint32_t MakePacketType0(uint16_t index, uint16_t count, bool one_reg = false) {
+      |                                                                      ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/shader/translator.cpp:462:29: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long long') and 'int' [-Wsign-compare]
+  462 |   if (binding.binding_index == -1) {
+      |       ~~~~~~~~~~~~~~~~~~~~~ ^  ~~
+D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/shader/translator.cpp:845:65: warning: unused parameter 'cf' [-Wunused-parameter]
+  845 | void ParseControlFlowReturn(const ControlFlowReturnInstruction& cf, uint32_t cf_index,
+      |                                                                 ^
+3 warnings generated.
+[8/39] Building CXX object rexglue-sdk/src/graphics/CMakeFiles/rexgpu-xenos.dir/pipeline/texture/cache.cpp.obj
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/texture/cache.cpp:21:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:22:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/util.h:15:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/info.h:18:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/xenos.h:1621:70: warning: unused parameter 'one_reg' [-Wunused-parameter]
+ 1621 | inline uint32_t MakePacketType0(uint16_t index, uint16_t count, bool one_reg = false) {
+      |                                                                      ^
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/texture/cache.cpp:21:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:167:53: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  167 |     TextureKey(const TextureKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                     ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:167:53: note: explicitly cast the pointer to silence this warning
+  167 |     TextureKey(const TextureKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                     ^
+      |                                                     (void*)
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:169:19: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  169 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:169:19: note: explicitly cast the pointer to silence this warning
+  169 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+      |                   (void*)
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:174:19: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  174 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:174:19: note: explicitly cast the pointer to silence this warning
+  174 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+      |                   (void*)
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:223:70: warning: unused parameter 'global_lock' [-Wunused-parameter]
+  223 |     bool base_outdated(const std::unique_lock<std::recursive_mutex>& global_lock) const {
+      |                                                                      ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:226:70: warning: unused parameter 'global_lock' [-Wunused-parameter]
+  226 |     bool mips_outdated(const std::unique_lock<std::recursive_mutex>& global_lock) const {
+      |                                                                      ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:467:19: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureBinding' [-Wnontrivial-memcall]
+  467 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:467:19: note: explicitly cast the pointer to silence this warning
+  467 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+      |                   (void*)
+D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/texture/cache.cpp:686:51: warning: unused parameter 'global_lock' [-Wunused-parameter]
+  686 |     const std::unique_lock<std::recursive_mutex>& global_lock) {
+      |                                                   ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/texture/cache.cpp:747:55: warning: unused parameter 'data' [-Wunused-parameter]
+  747 |                                  void* context, void* data, uint64_t argument,
+      |                                                       ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/texture/cache.cpp:748:39: warning: unused parameter 'invalidated_by_gpu' [-Wunused-parameter]
+  748 |                                  bool invalidated_by_gpu) {
+      |                                       ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/texture/cache.cpp:1071:51: warning: unused parameter 'global_lock' [-Wunused-parameter]
+ 1071 |     const std::unique_lock<std::recursive_mutex>& global_lock, uint32_t address_first,
+      |                                                   ^
+11 warnings generated.
+[9/39] Building CXX object rexglue-sdk/src/graphics/CMakeFiles/rexgpu-xenos.dir/pipeline/render_target/cache.cpp.obj
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/render_target/cache.cpp:23:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/render_target/cache.h:24:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/shader/shader.h:22:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/format/ucode.h:17:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/xenos.h:1621:70: warning: unused parameter 'one_reg' [-Wunused-parameter]
+ 1621 | inline uint32_t MakePacketType0(uint16_t index, uint16_t count, bool one_reg = false) {
+      |                                                                      ^
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/render_target/cache.cpp:23:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/render_target/cache.h:188:9: warning: field 'draw_extent_estimator_' will be initialized after field 'draw_resolution_scale_x_' [-Wreorder-ctor]
+  188 |         draw_extent_estimator_(register_file, memory, trace_writer),
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         draw_resolution_scale_x_(draw_resolution_scale_x)
+  189 |         draw_resolution_scale_x_(draw_resolution_scale_x),
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         draw_resolution_scale_y_(draw_resolution_scale_y)
+  190 |         draw_resolution_scale_y_(draw_resolution_scale_y) {
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         draw_extent_estimator_(register_file, memory, trace_writer)
+2 warnings generated.
+[10/39] Building CXX object rexglue-sdk/src/graphics/CMakeFiles/rexgpu-xenos.dir/pipeline/shader/dxbc_translator_memexport.cpp.obj
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/shader/dxbc_translator_memexport.cpp:17:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/shader/dxbc_translator.h:21:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/format/ucode.h:17:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/xenos.h:1621:70: warning: unused parameter 'one_reg' [-Wunused-parameter]
+ 1621 | inline uint32_t MakePacketType0(uint16_t index, uint16_t count, bool one_reg = false) {
+      |                                                                      ^
+1 warning generated.
+[11/39] Building CXX object rexglue-sdk/src/graphics/CMakeFiles/rexgpu-xenos.dir/pipeline/shader/dxbc_translator_alu.cpp.obj
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/shader/dxbc_translator_alu.cpp:16:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/shader/dxbc_translator.h:21:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/format/ucode.h:17:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/xenos.h:1621:70: warning: unused parameter 'one_reg' [-Wunused-parameter]
+ 1621 | inline uint32_t MakePacketType0(uint16_t index, uint16_t count, bool one_reg = false) {
+      |                                                                      ^
+1 warning generated.
+[12/39] Linking CXX static library "D:\GAME RECOMP\rexglue-sdk\out\win-amd64\rexcodegen.lib"
+[13/39] Building CXX object CMakeFiles/burnoutrevenge.dir/src/main.cpp.obj
+[14/39] Building CXX object rexglue-sdk/src/graphics/CMakeFiles/rexgpu-xenos.dir/pipeline/shader/dxbc_translator_fetch.cpp.obj
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/shader/dxbc_translator_fetch.cpp:22:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/render_target/cache.h:24:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/shader/shader.h:22:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/format/ucode.h:17:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/xenos.h:1621:70: warning: unused parameter 'one_reg' [-Wunused-parameter]
+ 1621 | inline uint32_t MakePacketType0(uint16_t index, uint16_t count, bool one_reg = false) {
+      |                                                                      ^
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/shader/dxbc_translator_fetch.cpp:22:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/render_target/cache.h:188:9: warning: field 'draw_extent_estimator_' will be initialized after field 'draw_resolution_scale_x_' [-Wreorder-ctor]
+  188 |         draw_extent_estimator_(register_file, memory, trace_writer),
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         draw_resolution_scale_x_(draw_resolution_scale_x)
+  189 |         draw_resolution_scale_x_(draw_resolution_scale_x),
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         draw_resolution_scale_y_(draw_resolution_scale_y)
+  190 |         draw_resolution_scale_y_(draw_resolution_scale_y) {
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         draw_extent_estimator_(register_file, memory, trace_writer)
+2 warnings generated.
+[15/39] Building CXX object rexglue-sdk/src/graphics/CMakeFiles/rexgpu-xenos.dir/pipeline/shader/dxbc_translator.cpp.obj
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/shader/dxbc_translator.cpp:21:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/shader/dxbc.h:17:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/shader/dxbc_translator.h:21:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/format/ucode.h:17:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/xenos.h:1621:70: warning: unused parameter 'one_reg' [-Wunused-parameter]
+ 1621 | inline uint32_t MakePacketType0(uint16_t index, uint16_t count, bool one_reg = false) {
+      |                                                                      ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/shader/dxbc_translator.cpp:72:7: warning: field 'draw_resolution_scale_y_' will be initialized after field 'emit_source_map_' [-Wreorder-ctor]
+   66 |       vendor_id_(vendor_id),
+      |       ~~~~~~~~~~~~~~~~~~~~~
+      |       emit_source_map_(force_emit_source_map || REXCVAR_GET(dxbc_source_map))
+   67 |       bindless_resources_used_(bindless_resources_used),
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |       vendor_id_(vendor_id)
+   68 |       edram_rov_used_(edram_rov_used),
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |       bindless_resources_used_(bindless_resources_used)
+   69 |       gamma_render_target_as_unorm8_(gamma_render_target_as_unorm8),
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |       edram_rov_used_(edram_rov_used)
+   70 |       msaa_2x_supported_(msaa_2x_supported),
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |       gamma_render_target_as_unorm8_(gamma_render_target_as_unorm8)
+   71 |       draw_resolution_scale_x_(draw_resolution_scale_x),
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |       msaa_2x_supported_(msaa_2x_supported)
+   72 |       draw_resolution_scale_y_(draw_resolution_scale_y),
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |       draw_resolution_scale_x_(draw_resolution_scale_x)
+   73 |       emit_source_map_(force_emit_source_map || REXCVAR_GET(dxbc_source_map)) {
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |       draw_resolution_scale_y_(draw_resolution_scale_y)
+D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/shader/dxbc_translator.cpp:1937:62: warning: missing field 'padding_after' initializer [-Wmissing-field-initializers]
+ 1937 |     {"xe_flags", ShaderRdefTypeIndex::kUint, sizeof(uint32_t)},
+      |                                                              ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/shader/dxbc_translator.cpp:1938:85: warning: missing field 'padding_after' initializer [-Wmissing-field-initializers]
+ 1938 |     {"xe_tessellation_factor_range", ShaderRdefTypeIndex::kFloat2, sizeof(float) * 2},
+      |                                                                                     ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/shader/dxbc_translator.cpp:1939:80: warning: missing field 'padding_after' initializer [-Wmissing-field-initializers]
+ 1939 |     {"xe_line_loop_closing_index", ShaderRdefTypeIndex::kUint, sizeof(uint32_t)},
+      |                                                                                ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/shader/dxbc_translator.cpp:1941:76: warning: missing field 'padding_after' initializer [-Wmissing-field-initializers]
+ 1941 |     {"xe_vertex_index_endian", ShaderRdefTypeIndex::kUint, sizeof(uint32_t)},
+      |                                                                            ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/shader/dxbc_translator.cpp:1942:75: warning: missing field 'padding_after' initializer [-Wmissing-field-initializers]
+ 1942 |     {"xe_vertex_index_offset", ShaderRdefTypeIndex::kUint, sizeof(int32_t)},
+      |                                                                           ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/shader/dxbc_translator.cpp:1943:82: warning: missing field 'padding_after' initializer [-Wmissing-field-initializers]
+ 1943 |     {"xe_vertex_index_min_max", ShaderRdefTypeIndex::kUint2, sizeof(uint32_t) * 2},
+      |                                                                                  ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/shader/dxbc_translator.cpp:1945:86: warning: missing field 'padding_after' initializer [-Wmissing-field-initializers]
+ 1945 |     {"xe_user_clip_planes", ShaderRdefTypeIndex::kFloat4Array6, sizeof(float) * 4 * 6},
+      |                                                                                      ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/shader/dxbc_translator.cpp:1947:69: warning: missing field 'padding_after' initializer [-Wmissing-field-initializers]
+ 1947 |     {"xe_ndc_scale", ShaderRdefTypeIndex::kFloat3, sizeof(float) * 3},
+      |                                                                     ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/shader/dxbc_translator.cpp:1948:80: warning: missing field 'padding_after' initializer [-Wmissing-field-initializers]
+ 1948 |     {"xe_point_vertex_diameter_min", ShaderRdefTypeIndex::kFloat, sizeof(float)},
+      |                                                                                ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/shader/dxbc_translator.cpp:1950:70: warning: missing field 'padding_after' initializer [-Wmissing-field-initializers]
+ 1950 |     {"xe_ndc_offset", ShaderRdefTypeIndex::kFloat3, sizeof(float) * 3},
+      |                                                                      ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/shader/dxbc_translator.cpp:1951:80: warning: missing field 'padding_after' initializer [-Wmissing-field-initializers]
+ 1951 |     {"xe_point_vertex_diameter_max", ShaderRdefTypeIndex::kFloat, sizeof(float)},
+      |                                                                                ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/shader/dxbc_translator.cpp:1953:83: warning: missing field 'padding_after' initializer [-Wmissing-field-initializers]
+ 1953 |     {"xe_point_constant_diameter", ShaderRdefTypeIndex::kFloat2, sizeof(float) * 2},
+      |                                                                                   ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/shader/dxbc_translator.cpp:1954:95: warning: missing field 'padding_after' initializer [-Wmissing-field-initializers]
+ 1954 |     {"xe_point_screen_diameter_to_ndc_radius", ShaderRdefTypeIndex::kFloat2, sizeof(float) * 2},
+      |                                                                                               ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/shader/dxbc_translator.cpp:1956:94: warning: missing field 'padding_after' initializer [-Wmissing-field-initializers]
+ 1956 |     {"xe_texture_swizzled_signs", ShaderRdefTypeIndex::kUint4Array2, sizeof(uint32_t) * 4 * 2},
+      |                                                                                              ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/shader/dxbc_translator.cpp:1958:83: warning: missing field 'padding_after' initializer [-Wmissing-field-initializers]
+ 1958 |     {"xe_textures_resolution_scaled", ShaderRdefTypeIndex::kUint, sizeof(uint32_t)},
+      |                                                                                   ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/shader/dxbc_translator.cpp:1959:79: warning: missing field 'padding_after' initializer [-Wmissing-field-initializers]
+ 1959 |     {"xe_sample_count_log2", ShaderRdefTypeIndex::kUint2, sizeof(uint32_t) * 2},
+      |                                                                               ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/shader/dxbc_translator.cpp:1960:75: warning: missing field 'padding_after' initializer [-Wmissing-field-initializers]
+ 1960 |     {"xe_alpha_test_reference", ShaderRdefTypeIndex::kFloat, sizeof(float)},
+      |                                                                           ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/shader/dxbc_translator.cpp:1962:70: warning: missing field 'padding_after' initializer [-Wmissing-field-initializers]
+ 1962 |     {"xe_alpha_to_mask", ShaderRdefTypeIndex::kUint, sizeof(uint32_t)},
+      |                                                                      ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/shader/dxbc_translator.cpp:1963:93: warning: missing field 'padding_after' initializer [-Wmissing-field-initializers]
+ 1963 |     {"xe_edram_32bpp_tile_pitch_dwords_scaled", ShaderRdefTypeIndex::kUint, sizeof(uint32_t)},
+      |                                                                                             ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/shader/dxbc_translator.cpp:1967:74: warning: missing field 'padding_after' initializer [-Wmissing-field-initializers]
+ 1967 |     {"xe_color_exp_bias", ShaderRdefTypeIndex::kFloat4, sizeof(float) * 4},
+      |                                                                          ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/shader/dxbc_translator.cpp:1969:83: warning: missing field 'padding_after' initializer [-Wmissing-field-initializers]
+ 1969 |     {"xe_edram_poly_offset_front", ShaderRdefTypeIndex::kFloat2, sizeof(float) * 2},
+      |                                                                                   ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/shader/dxbc_translator.cpp:1970:82: warning: missing field 'padding_after' initializer [-Wmissing-field-initializers]
+ 1970 |     {"xe_edram_poly_offset_back", ShaderRdefTypeIndex::kFloat2, sizeof(float) * 2},
+      |                                                                                  ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/shader/dxbc_translator.cpp:1972:85: warning: missing field 'padding_after' initializer [-Wmissing-field-initializers]
+ 1972 |     {"xe_edram_stencil", ShaderRdefTypeIndex::kUint4Array2, sizeof(uint32_t) * 4 * 2},
+      |                                                                                     ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/shader/dxbc_translator.cpp:1974:89: warning: missing field 'padding_after' initializer [-Wmissing-field-initializers]
+ 1974 |     {"xe_edram_rt_base_dwords_scaled", ShaderRdefTypeIndex::kUint4, sizeof(uint32_t) * 4},
+      |                                                                                         ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/shader/dxbc_translator.cpp:1976:83: warning: missing field 'padding_after' initializer [-Wmissing-field-initializers]
+ 1976 |     {"xe_edram_rt_format_flags", ShaderRdefTypeIndex::kUint4, sizeof(uint32_t) * 4},
+      |                                                                                   ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/shader/dxbc_translator.cpp:1978:84: warning: missing field 'padding_after' initializer [-Wmissing-field-initializers]
+ 1978 |     {"xe_edram_rt_clamp", ShaderRdefTypeIndex::kFloat4Array4, sizeof(float) * 4 * 4},
+      |                                                                                    ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/shader/dxbc_translator.cpp:1980:90: warning: missing field 'padding_after' initializer [-Wmissing-field-initializers]
+ 1980 |     {"xe_edram_rt_keep_mask", ShaderRdefTypeIndex::kUint4Array2, sizeof(uint32_t) * 4 * 2},
+      |                                                                                          ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/shader/dxbc_translator.cpp:1982:88: warning: missing field 'padding_after' initializer [-Wmissing-field-initializers]
+ 1982 |     {"xe_edram_rt_blend_factors_ops", ShaderRdefTypeIndex::kUint4, sizeof(uint32_t) * 4},
+      |                                                                                        ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/shader/dxbc_translator.cpp:1984:80: warning: missing field 'padding_after' initializer [-Wmissing-field-initializers]
+ 1984 |     {"xe_edram_blend_constant", ShaderRdefTypeIndex::kFloat4, sizeof(float) * 4},
+      |                                                                                ^
+31 warnings generated.
+[16/39] Building CXX object rexglue-sdk/src/graphics/CMakeFiles/rexgpu-xenos.dir/d3d12/shader.cpp.obj
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/d3d12/shader.cpp:16:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/shader.h:16:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/shader/dxbc.h:17:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/shader/dxbc_translator.h:21:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/format/ucode.h:17:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/xenos.h:1621:70: warning: unused parameter 'one_reg' [-Wunused-parameter]
+ 1621 | inline uint32_t MakePacketType0(uint16_t index, uint16_t count, bool one_reg = false) {
+      |                                                                      ^
+1 warning generated.
+[17/39] Building CXX object rexglue-sdk/src/graphics/CMakeFiles/rexgpu-xenos.dir/pipeline/shader/dxbc_translator_om.cpp.obj
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/shader/dxbc_translator_om.cpp:16:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/render_target/cache.h:24:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/shader/shader.h:22:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/format/ucode.h:17:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/xenos.h:1621:70: warning: unused parameter 'one_reg' [-Wunused-parameter]
+ 1621 | inline uint32_t MakePacketType0(uint16_t index, uint16_t count, bool one_reg = false) {
+      |                                                                      ^
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/shader/dxbc_translator_om.cpp:16:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/render_target/cache.h:188:9: warning: field 'draw_extent_estimator_' will be initialized after field 'draw_resolution_scale_x_' [-Wreorder-ctor]
+  188 |         draw_extent_estimator_(register_file, memory, trace_writer),
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         draw_resolution_scale_x_(draw_resolution_scale_x)
+  189 |         draw_resolution_scale_x_(draw_resolution_scale_x),
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         draw_resolution_scale_y_(draw_resolution_scale_y)
+  190 |         draw_resolution_scale_y_(draw_resolution_scale_y) {
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         draw_extent_estimator_(register_file, memory, trace_writer)
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/shader/dxbc_translator_om.cpp:18:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:167:53: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  167 |     TextureKey(const TextureKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                     ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:167:53: note: explicitly cast the pointer to silence this warning
+  167 |     TextureKey(const TextureKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                     ^
+      |                                                     (void*)
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:169:19: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  169 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:169:19: note: explicitly cast the pointer to silence this warning
+  169 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+      |                   (void*)
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:174:19: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  174 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:174:19: note: explicitly cast the pointer to silence this warning
+  174 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+      |                   (void*)
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:223:70: warning: unused parameter 'global_lock' [-Wunused-parameter]
+  223 |     bool base_outdated(const std::unique_lock<std::recursive_mutex>& global_lock) const {
+      |                                                                      ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:226:70: warning: unused parameter 'global_lock' [-Wunused-parameter]
+  226 |     bool mips_outdated(const std::unique_lock<std::recursive_mutex>& global_lock) const {
+      |                                                                      ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:467:19: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureBinding' [-Wnontrivial-memcall]
+  467 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:467:19: note: explicitly cast the pointer to silence this warning
+  467 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+      |                   (void*)
+8 warnings generated.
+[18/39] Building CXX object rexglue-sdk/src/graphics/CMakeFiles/rexgpu-xenos.dir/d3d12/graphics_system.cpp.obj
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/d3d12/graphics_system.cpp:14:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/command_processor.h:26:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/command_processor.h:24:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/register_file.h:19:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/registers.h:18:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/xenos.h:1621:70: warning: unused parameter 'one_reg' [-Wunused-parameter]
+ 1621 | inline uint32_t MakePacketType0(uint16_t index, uint16_t count, bool one_reg = false) {
+      |                                                                      ^
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/d3d12/graphics_system.cpp:14:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/command_processor.h:29:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/pipeline_cache.h:29:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/render_target_cache.h:27:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/texture_cache.h:24:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:167:53: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  167 |     TextureKey(const TextureKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                     ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:167:53: note: explicitly cast the pointer to silence this warning
+  167 |     TextureKey(const TextureKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                     ^
+      |                                                     (void*)
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:169:19: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  169 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:169:19: note: explicitly cast the pointer to silence this warning
+  169 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+      |                   (void*)
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:174:19: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  174 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:174:19: note: explicitly cast the pointer to silence this warning
+  174 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+      |                   (void*)
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:223:70: warning: unused parameter 'global_lock' [-Wunused-parameter]
+  223 |     bool base_outdated(const std::unique_lock<std::recursive_mutex>& global_lock) const {
+      |                                                                      ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:226:70: warning: unused parameter 'global_lock' [-Wunused-parameter]
+  226 |     bool mips_outdated(const std::unique_lock<std::recursive_mutex>& global_lock) const {
+      |                                                                      ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:467:19: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureBinding' [-Wnontrivial-memcall]
+  467 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:467:19: note: explicitly cast the pointer to silence this warning
+  467 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+      |                   (void*)
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/d3d12/graphics_system.cpp:14:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/command_processor.h:29:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/pipeline_cache.h:29:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/render_target_cache.h:29:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/render_target/cache.h:188:9: warning: field 'draw_extent_estimator_' will be initialized after field 'draw_resolution_scale_x_' [-Wreorder-ctor]
+  188 |         draw_extent_estimator_(register_file, memory, trace_writer),
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         draw_resolution_scale_x_(draw_resolution_scale_x)
+  189 |         draw_resolution_scale_x_(draw_resolution_scale_x),
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         draw_resolution_scale_y_(draw_resolution_scale_y)
+  190 |         draw_resolution_scale_y_(draw_resolution_scale_y) {
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         draw_extent_estimator_(register_file, memory, trace_writer)
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/d3d12/graphics_system.cpp:14:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/command_processor.h:29:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/pipeline_cache.h:29:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/render_target_cache.h:37:
+D:/GAME RECOMP/rexglue-sdk/include\rex/ui/d3d12/d3d12_util.h:24:89: warning: missing field 'CPUPageProperty' initializer [-Wmissing-field-initializers]
+   24 | inline constexpr D3D12_HEAP_PROPERTIES kHeapPropertiesDefault = {D3D12_HEAP_TYPE_DEFAULT};
+      |                                                                                         ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/ui/d3d12/d3d12_util.h:25:87: warning: missing field 'CPUPageProperty' initializer [-Wmissing-field-initializers]
+   25 | inline constexpr D3D12_HEAP_PROPERTIES kHeapPropertiesUpload = {D3D12_HEAP_TYPE_UPLOAD};
+      |                                                                                       ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/ui/d3d12/d3d12_util.h:26:91: warning: missing field 'CPUPageProperty' initializer [-Wmissing-field-initializers]
+   26 | inline constexpr D3D12_HEAP_PROPERTIES kHeapPropertiesReadback = {D3D12_HEAP_TYPE_READBACK};
+      |                                                                                           ^
+11 warnings generated.
+[19/39] Building CXX object rexglue-sdk/src/graphics/CMakeFiles/rexgpu-xenos.dir/d3d12/primitive_processor.cpp.obj
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/d3d12/primitive_processor.cpp:18:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/command_processor.h:26:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/command_processor.h:24:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/register_file.h:19:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/registers.h:18:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/xenos.h:1621:70: warning: unused parameter 'one_reg' [-Wunused-parameter]
+ 1621 | inline uint32_t MakePacketType0(uint16_t index, uint16_t count, bool one_reg = false) {
+      |                                                                      ^
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/d3d12/primitive_processor.cpp:18:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/command_processor.h:29:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/pipeline_cache.h:29:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/render_target_cache.h:27:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/texture_cache.h:24:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:167:53: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  167 |     TextureKey(const TextureKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                     ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:167:53: note: explicitly cast the pointer to silence this warning
+  167 |     TextureKey(const TextureKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                     ^
+      |                                                     (void*)
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:169:19: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  169 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:169:19: note: explicitly cast the pointer to silence this warning
+  169 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+      |                   (void*)
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:174:19: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  174 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:174:19: note: explicitly cast the pointer to silence this warning
+  174 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+      |                   (void*)
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:223:70: warning: unused parameter 'global_lock' [-Wunused-parameter]
+  223 |     bool base_outdated(const std::unique_lock<std::recursive_mutex>& global_lock) const {
+      |                                                                      ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:226:70: warning: unused parameter 'global_lock' [-Wunused-parameter]
+  226 |     bool mips_outdated(const std::unique_lock<std::recursive_mutex>& global_lock) const {
+      |                                                                      ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:467:19: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureBinding' [-Wnontrivial-memcall]
+  467 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:467:19: note: explicitly cast the pointer to silence this warning
+  467 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+      |                   (void*)
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/d3d12/primitive_processor.cpp:18:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/command_processor.h:29:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/pipeline_cache.h:29:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/render_target_cache.h:29:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/render_target/cache.h:188:9: warning: field 'draw_extent_estimator_' will be initialized after field 'draw_resolution_scale_x_' [-Wreorder-ctor]
+  188 |         draw_extent_estimator_(register_file, memory, trace_writer),
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         draw_resolution_scale_x_(draw_resolution_scale_x)
+  189 |         draw_resolution_scale_x_(draw_resolution_scale_x),
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         draw_resolution_scale_y_(draw_resolution_scale_y)
+  190 |         draw_resolution_scale_y_(draw_resolution_scale_y) {
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         draw_extent_estimator_(register_file, memory, trace_writer)
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/d3d12/primitive_processor.cpp:18:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/command_processor.h:29:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/pipeline_cache.h:29:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/render_target_cache.h:37:
+D:/GAME RECOMP/rexglue-sdk/include\rex/ui/d3d12/d3d12_util.h:24:89: warning: missing field 'CPUPageProperty' initializer [-Wmissing-field-initializers]
+   24 | inline constexpr D3D12_HEAP_PROPERTIES kHeapPropertiesDefault = {D3D12_HEAP_TYPE_DEFAULT};
+      |                                                                                         ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/ui/d3d12/d3d12_util.h:25:87: warning: missing field 'CPUPageProperty' initializer [-Wmissing-field-initializers]
+   25 | inline constexpr D3D12_HEAP_PROPERTIES kHeapPropertiesUpload = {D3D12_HEAP_TYPE_UPLOAD};
+      |                                                                                       ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/ui/d3d12/d3d12_util.h:26:91: warning: missing field 'CPUPageProperty' initializer [-Wmissing-field-initializers]
+   26 | inline constexpr D3D12_HEAP_PROPERTIES kHeapPropertiesReadback = {D3D12_HEAP_TYPE_READBACK};
+      |                                                                                           ^
+11 warnings generated.
+[20/39] Linking C static library "D:\GAME RECOMP\rexglue-sdk\out\win-amd64\tiny-aes.lib"
+[21/39] Linking CXX executable burnoutrevenge.exe
+FAILED: burnoutrevenge.exe 
+C:\WINDOWS\system32\cmd.exe /C "cd . && C:\PROGRA~1\LLVM\bin\CLANG_~1.EXE -nostartfiles -nostdlib -march=x86-64-v2 -O3 -DNDEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -Xlinker /subsystem:windows  -fuse-ld=lld-link rexglue-sdk/thirdparty/CMakeFiles/imgui.dir/imgui/imgui.cpp.obj rexglue-sdk/thirdparty/CMakeFiles/imgui.dir/imgui/imgui_demo.cpp.obj rexglue-sdk/thirdparty/CMakeFiles/imgui.dir/imgui/imgui_draw.cpp.obj rexglue-sdk/thirdparty/CMakeFiles/imgui.dir/imgui/imgui_tables.cpp.obj rexglue-sdk/thirdparty/CMakeFiles/imgui.dir/imgui/imgui_widgets.cpp.obj CMakeFiles/burnoutrevenge.dir/src/main.cpp.obj CMakeFiles/burnoutrevenge.dir/D_/GAME_RECOMP/rexglue-sdk/src/ui/windowed_app_main_sdl.cpp.obj CMakeFiles/burnoutrevenge.dir/D_/GAME_RECOMP/rexglue-sdk/src/ui/rex_app.cpp.obj -o burnoutrevenge.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:burnoutrevenge.lib -Xlinker /pdb:burnoutrevenge.pdb -Xlinker /version:0.0   "D:/GAME RECOMP/rexglue-sdk/out/win-amd64/rexruntime.lib"  "D:/GAME RECOMP/rexglue-sdk/out/win-amd64/spdlog.lib"  "D:/GAME RECOMP/rexglue-sdk/out/win-amd64/fmt.lib"  "D:/GAME RECOMP/rexglue-sdk/out/win-amd64/SDL3-static.lib"  -lkernel32.lib  -luser32.lib  -lgdi32.lib  -lwinmm.lib  -limm32.lib  -lole32.lib  -loleaut32.lib  -lversion.lib  -luuid.lib  -ladvapi32.lib  -lsetupapi.lib  -lshell32.lib  -lhid.lib  -ldinput8.lib  "D:/GAME RECOMP/rexglue-sdk/out/win-amd64/TracyClient.lib"  -lws2_32.lib  -ldbghelp.lib  -ldxgi.lib  -ldxguid.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && C:\WINDOWS\system32\cmd.exe /C "cd /D "D:\Burnout Revenge Recomp\out\build\win-amd64-release" && C:\Users\tropp\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\mingw64\bin\cmake.exe -E copy_if_different "D:/GAME RECOMP/rexglue-sdk/out/win-amd64/rexruntime.dll" "D:/GAME RECOMP/rexglue-sdk/out/win-amd64/TracyClient.dll" "D:/Burnout Revenge Recomp/out/build/win-amd64-release"""
+lld-link: error: undefined symbol: struct rex::PPCImageInfo const PPCImageConfig
+>>> referenced by CMakeFiles/burnoutrevenge.dir/src/main.cpp.obj:(public: static class std::unique_ptr<class rex::ui::WindowedApp, struct std::default_delete<class rex::ui::WindowedApp>> __cdecl BurnoutrevengeApp::Create(class rex::ui::WindowedAppContext &))
+>>> referenced by CMakeFiles/burnoutrevenge.dir/src/main.cpp.obj:(public: static class std::unique_ptr<class rex::ui::WindowedApp, struct std::default_delete<class rex::ui::WindowedApp>> __cdecl BurnoutrevengeApp::Create(class rex::ui::WindowedAppContext &))
+>>> referenced by CMakeFiles/burnoutrevenge.dir/src/main.cpp.obj:(public: static class std::unique_ptr<class rex::ui::WindowedApp, struct std::default_delete<class rex::ui::WindowedApp>> __cdecl BurnoutrevengeApp::Create(class rex::ui::WindowedAppContext &))
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+[22/39] Linking C static library "D:\GAME RECOMP\rexglue-sdk\out\win-amd64\SDL3_test.lib"
+[23/39] Building CXX object rexglue-sdk/src/rexglue/CMakeFiles/rexglue.dir/ui/ui.cpp.obj
+[24/39] Building CXX object rexglue-sdk/src/graphics/CMakeFiles/rexgpu-xenos.dir/d3d12/command_processor.cpp.obj
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/d3d12/command_processor.cpp:22:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/command_processor.h:26:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/command_processor.h:24:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/register_file.h:19:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/registers.h:18:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/xenos.h:1621:70: warning: unused parameter 'one_reg' [-Wunused-parameter]
+ 1621 | inline uint32_t MakePacketType0(uint16_t index, uint16_t count, bool one_reg = false) {
+      |                                                                      ^
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/d3d12/command_processor.cpp:22:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/command_processor.h:29:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/pipeline_cache.h:29:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/render_target_cache.h:27:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/texture_cache.h:24:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:167:53: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  167 |     TextureKey(const TextureKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                     ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:167:53: note: explicitly cast the pointer to silence this warning
+  167 |     TextureKey(const TextureKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                     ^
+      |                                                     (void*)
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:169:19: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  169 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:169:19: note: explicitly cast the pointer to silence this warning
+  169 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+      |                   (void*)
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:174:19: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  174 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:174:19: note: explicitly cast the pointer to silence this warning
+  174 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+      |                   (void*)
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:223:70: warning: unused parameter 'global_lock' [-Wunused-parameter]
+  223 |     bool base_outdated(const std::unique_lock<std::recursive_mutex>& global_lock) const {
+      |                                                                      ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:226:70: warning: unused parameter 'global_lock' [-Wunused-parameter]
+  226 |     bool mips_outdated(const std::unique_lock<std::recursive_mutex>& global_lock) const {
+      |                                                                      ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:467:19: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureBinding' [-Wnontrivial-memcall]
+  467 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:467:19: note: explicitly cast the pointer to silence this warning
+  467 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+      |                   (void*)
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/d3d12/command_processor.cpp:22:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/command_processor.h:29:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/pipeline_cache.h:29:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/render_target_cache.h:29:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/render_target/cache.h:188:9: warning: field 'draw_extent_estimator_' will be initialized after field 'draw_resolution_scale_x_' [-Wreorder-ctor]
+  188 |         draw_extent_estimator_(register_file, memory, trace_writer),
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         draw_resolution_scale_x_(draw_resolution_scale_x)
+  189 |         draw_resolution_scale_x_(draw_resolution_scale_x),
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         draw_resolution_scale_y_(draw_resolution_scale_y)
+  190 |         draw_resolution_scale_y_(draw_resolution_scale_y) {
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         draw_extent_estimator_(register_file, memory, trace_writer)
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/d3d12/command_processor.cpp:22:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/command_processor.h:29:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/pipeline_cache.h:29:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/render_target_cache.h:37:
+D:/GAME RECOMP/rexglue-sdk/include\rex/ui/d3d12/d3d12_util.h:24:89: warning: missing field 'CPUPageProperty' initializer [-Wmissing-field-initializers]
+   24 | inline constexpr D3D12_HEAP_PROPERTIES kHeapPropertiesDefault = {D3D12_HEAP_TYPE_DEFAULT};
+      |                                                                                         ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/ui/d3d12/d3d12_util.h:25:87: warning: missing field 'CPUPageProperty' initializer [-Wmissing-field-initializers]
+   25 | inline constexpr D3D12_HEAP_PROPERTIES kHeapPropertiesUpload = {D3D12_HEAP_TYPE_UPLOAD};
+      |                                                                                       ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/ui/d3d12/d3d12_util.h:26:91: warning: missing field 'CPUPageProperty' initializer [-Wmissing-field-initializers]
+   26 | inline constexpr D3D12_HEAP_PROPERTIES kHeapPropertiesReadback = {D3D12_HEAP_TYPE_READBACK};
+      |                                                                                           ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/d3d12/command_processor.cpp:194:48: warning: lambda capture 'kQueryFinished' is not required to be captured for this use [-Wunused-lambda-capture]
+  194 |   auto write_fallback_result = [sample_counts, kQueryFinished]() -> bool {
+      |                                              ~~^~~~~~~~~~~~~~
+D:/GAME RECOMP/rexglue-sdk/src/graphics/d3d12/command_processor.cpp:1918:48: warning: unused parameter 'frontbuffer_ptr' [-Wunused-parameter]
+ 1918 | void D3D12CommandProcessor::IssueSwap(uint32_t frontbuffer_ptr, uint32_t frontbuffer_width,
+      |                                                ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/d3d12/command_processor.cpp:2290:83: warning: unused parameter 'guest_address' [-Wunused-parameter]
+ 2290 | Shader* D3D12CommandProcessor::LoadShader(xenos::ShaderType shader_type, uint32_t guest_address,
+      |                                                                                   ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/d3d12/command_processor.cpp:2295:60: warning: unused parameter 'primitive_type' [-Wunused-parameter]
+ 2295 | bool D3D12CommandProcessor::IssueDraw(xenos::PrimitiveType primitive_type, uint32_t index_count,
+      |                                                            ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/d3d12/command_processor.cpp:2295:85: warning: unused parameter 'index_count' [-Wunused-parameter]
+ 2295 | bool D3D12CommandProcessor::IssueDraw(xenos::PrimitiveType primitive_type, uint32_t index_count,
+      |                                                                                     ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/d3d12/command_processor.cpp:2296:56: warning: unused parameter 'index_buffer_info' [-Wunused-parameter]
+ 2296 |                                       IndexBufferInfo* index_buffer_info,
+      |                                                        ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/d3d12/command_processor.cpp:2297:44: warning: unused parameter 'major_mode_explicit' [-Wunused-parameter]
+ 2297 |                                       bool major_mode_explicit) {
+      |                                            ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/d3d12/command_processor.cpp:5057:14: warning: unused parameter 'sample_count_address' [-Wunused-parameter]
+ 5057 |     uint32_t sample_count_address, xenos::xe_gpu_depth_sample_counts* sample_counts) {
+      |              ^
+19 warnings generated.
+[25/39] Building CXX object rexglue-sdk/src/rexglue/CMakeFiles/rexglue.dir/ui/progress.cpp.obj
+[26/39] Building CXX object rexglue-sdk/src/graphics/CMakeFiles/rexgpu-xenos.dir/d3d12/shared_memory.cpp.obj
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/d3d12/shared_memory.cpp:18:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/command_processor.h:26:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/command_processor.h:24:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/register_file.h:19:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/registers.h:18:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/xenos.h:1621:70: warning: unused parameter 'one_reg' [-Wunused-parameter]
+ 1621 | inline uint32_t MakePacketType0(uint16_t index, uint16_t count, bool one_reg = false) {
+      |                                                                      ^
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/d3d12/shared_memory.cpp:18:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/command_processor.h:29:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/pipeline_cache.h:29:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/render_target_cache.h:27:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/texture_cache.h:24:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:167:53: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  167 |     TextureKey(const TextureKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                     ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:167:53: note: explicitly cast the pointer to silence this warning
+  167 |     TextureKey(const TextureKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                     ^
+      |                                                     (void*)
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:169:19: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  169 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:169:19: note: explicitly cast the pointer to silence this warning
+  169 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+      |                   (void*)
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:174:19: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  174 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:174:19: note: explicitly cast the pointer to silence this warning
+  174 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+      |                   (void*)
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:223:70: warning: unused parameter 'global_lock' [-Wunused-parameter]
+  223 |     bool base_outdated(const std::unique_lock<std::recursive_mutex>& global_lock) const {
+      |                                                                      ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:226:70: warning: unused parameter 'global_lock' [-Wunused-parameter]
+  226 |     bool mips_outdated(const std::unique_lock<std::recursive_mutex>& global_lock) const {
+      |                                                                      ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:467:19: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureBinding' [-Wnontrivial-memcall]
+  467 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:467:19: note: explicitly cast the pointer to silence this warning
+  467 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+      |                   (void*)
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/d3d12/shared_memory.cpp:18:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/command_processor.h:29:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/pipeline_cache.h:29:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/render_target_cache.h:29:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/render_target/cache.h:188:9: warning: field 'draw_extent_estimator_' will be initialized after field 'draw_resolution_scale_x_' [-Wreorder-ctor]
+  188 |         draw_extent_estimator_(register_file, memory, trace_writer),
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         draw_resolution_scale_x_(draw_resolution_scale_x)
+  189 |         draw_resolution_scale_x_(draw_resolution_scale_x),
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         draw_resolution_scale_y_(draw_resolution_scale_y)
+  190 |         draw_resolution_scale_y_(draw_resolution_scale_y) {
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         draw_extent_estimator_(register_file, memory, trace_writer)
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/d3d12/shared_memory.cpp:18:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/command_processor.h:29:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/pipeline_cache.h:29:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/render_target_cache.h:37:
+D:/GAME RECOMP/rexglue-sdk/include\rex/ui/d3d12/d3d12_util.h:24:89: warning: missing field 'CPUPageProperty' initializer [-Wmissing-field-initializers]
+   24 | inline constexpr D3D12_HEAP_PROPERTIES kHeapPropertiesDefault = {D3D12_HEAP_TYPE_DEFAULT};
+      |                                                                                         ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/ui/d3d12/d3d12_util.h:25:87: warning: missing field 'CPUPageProperty' initializer [-Wmissing-field-initializers]
+   25 | inline constexpr D3D12_HEAP_PROPERTIES kHeapPropertiesUpload = {D3D12_HEAP_TYPE_UPLOAD};
+      |                                                                                       ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/ui/d3d12/d3d12_util.h:26:91: warning: missing field 'CPUPageProperty' initializer [-Wmissing-field-initializers]
+   26 | inline constexpr D3D12_HEAP_PROPERTIES kHeapPropertiesReadback = {D3D12_HEAP_TYPE_READBACK};
+      |                                                                                           ^
+11 warnings generated.
+[27/39] Building CXX object rexglue-sdk/src/graphics/CMakeFiles/rexgpu-xenos.dir/d3d12/deferred_command_list.cpp.obj
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/d3d12/deferred_command_list.cpp:14:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/command_processor.h:26:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/command_processor.h:24:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/register_file.h:19:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/registers.h:18:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/xenos.h:1621:70: warning: unused parameter 'one_reg' [-Wunused-parameter]
+ 1621 | inline uint32_t MakePacketType0(uint16_t index, uint16_t count, bool one_reg = false) {
+      |                                                                      ^
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/d3d12/deferred_command_list.cpp:14:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/command_processor.h:29:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/pipeline_cache.h:29:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/render_target_cache.h:27:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/texture_cache.h:24:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:167:53: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  167 |     TextureKey(const TextureKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                     ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:167:53: note: explicitly cast the pointer to silence this warning
+  167 |     TextureKey(const TextureKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                     ^
+      |                                                     (void*)
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:169:19: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  169 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:169:19: note: explicitly cast the pointer to silence this warning
+  169 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+      |                   (void*)
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:174:19: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  174 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:174:19: note: explicitly cast the pointer to silence this warning
+  174 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+      |                   (void*)
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:223:70: warning: unused parameter 'global_lock' [-Wunused-parameter]
+  223 |     bool base_outdated(const std::unique_lock<std::recursive_mutex>& global_lock) const {
+      |                                                                      ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:226:70: warning: unused parameter 'global_lock' [-Wunused-parameter]
+  226 |     bool mips_outdated(const std::unique_lock<std::recursive_mutex>& global_lock) const {
+      |                                                                      ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:467:19: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureBinding' [-Wnontrivial-memcall]
+  467 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:467:19: note: explicitly cast the pointer to silence this warning
+  467 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+      |                   (void*)
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/d3d12/deferred_command_list.cpp:14:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/command_processor.h:29:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/pipeline_cache.h:29:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/render_target_cache.h:29:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/render_target/cache.h:188:9: warning: field 'draw_extent_estimator_' will be initialized after field 'draw_resolution_scale_x_' [-Wreorder-ctor]
+  188 |         draw_extent_estimator_(register_file, memory, trace_writer),
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         draw_resolution_scale_x_(draw_resolution_scale_x)
+  189 |         draw_resolution_scale_x_(draw_resolution_scale_x),
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         draw_resolution_scale_y_(draw_resolution_scale_y)
+  190 |         draw_resolution_scale_y_(draw_resolution_scale_y) {
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         draw_extent_estimator_(register_file, memory, trace_writer)
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/d3d12/deferred_command_list.cpp:14:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/command_processor.h:29:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/pipeline_cache.h:29:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/render_target_cache.h:37:
+D:/GAME RECOMP/rexglue-sdk/include\rex/ui/d3d12/d3d12_util.h:24:89: warning: missing field 'CPUPageProperty' initializer [-Wmissing-field-initializers]
+   24 | inline constexpr D3D12_HEAP_PROPERTIES kHeapPropertiesDefault = {D3D12_HEAP_TYPE_DEFAULT};
+      |                                                                                         ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/ui/d3d12/d3d12_util.h:25:87: warning: missing field 'CPUPageProperty' initializer [-Wmissing-field-initializers]
+   25 | inline constexpr D3D12_HEAP_PROPERTIES kHeapPropertiesUpload = {D3D12_HEAP_TYPE_UPLOAD};
+      |                                                                                       ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/ui/d3d12/d3d12_util.h:26:91: warning: missing field 'CPUPageProperty' initializer [-Wmissing-field-initializers]
+   26 | inline constexpr D3D12_HEAP_PROPERTIES kHeapPropertiesReadback = {D3D12_HEAP_TYPE_READBACK};
+      |                                                                                           ^
+11 warnings generated.
+[28/39] Building CXX object rexglue-sdk/src/graphics/CMakeFiles/rexgpu-xenos.dir/d3d12/render_target_cache.cpp.obj
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/d3d12/render_target_cache.cpp:26:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/command_processor.h:26:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/command_processor.h:24:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/register_file.h:19:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/registers.h:18:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/xenos.h:1621:70: warning: unused parameter 'one_reg' [-Wunused-parameter]
+ 1621 | inline uint32_t MakePacketType0(uint16_t index, uint16_t count, bool one_reg = false) {
+      |                                                                      ^
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/d3d12/render_target_cache.cpp:26:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/command_processor.h:29:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/pipeline_cache.h:29:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/render_target_cache.h:27:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/texture_cache.h:24:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:167:53: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  167 |     TextureKey(const TextureKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                     ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:167:53: note: explicitly cast the pointer to silence this warning
+  167 |     TextureKey(const TextureKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                     ^
+      |                                                     (void*)
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:169:19: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  169 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:169:19: note: explicitly cast the pointer to silence this warning
+  169 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+      |                   (void*)
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:174:19: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  174 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:174:19: note: explicitly cast the pointer to silence this warning
+  174 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+      |                   (void*)
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:223:70: warning: unused parameter 'global_lock' [-Wunused-parameter]
+  223 |     bool base_outdated(const std::unique_lock<std::recursive_mutex>& global_lock) const {
+      |                                                                      ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:226:70: warning: unused parameter 'global_lock' [-Wunused-parameter]
+  226 |     bool mips_outdated(const std::unique_lock<std::recursive_mutex>& global_lock) const {
+      |                                                                      ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:467:19: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureBinding' [-Wnontrivial-memcall]
+  467 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:467:19: note: explicitly cast the pointer to silence this warning
+  467 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+      |                   (void*)
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/d3d12/render_target_cache.cpp:26:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/command_processor.h:29:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/pipeline_cache.h:29:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/render_target_cache.h:29:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/render_target/cache.h:188:9: warning: field 'draw_extent_estimator_' will be initialized after field 'draw_resolution_scale_x_' [-Wreorder-ctor]
+  188 |         draw_extent_estimator_(register_file, memory, trace_writer),
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         draw_resolution_scale_x_(draw_resolution_scale_x)
+  189 |         draw_resolution_scale_x_(draw_resolution_scale_x),
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         draw_resolution_scale_y_(draw_resolution_scale_y)
+  190 |         draw_resolution_scale_y_(draw_resolution_scale_y) {
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         draw_extent_estimator_(register_file, memory, trace_writer)
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/d3d12/render_target_cache.cpp:26:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/command_processor.h:29:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/pipeline_cache.h:29:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/render_target_cache.h:37:
+D:/GAME RECOMP/rexglue-sdk/include\rex/ui/d3d12/d3d12_util.h:24:89: warning: missing field 'CPUPageProperty' initializer [-Wmissing-field-initializers]
+   24 | inline constexpr D3D12_HEAP_PROPERTIES kHeapPropertiesDefault = {D3D12_HEAP_TYPE_DEFAULT};
+      |                                                                                         ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/ui/d3d12/d3d12_util.h:25:87: warning: missing field 'CPUPageProperty' initializer [-Wmissing-field-initializers]
+   25 | inline constexpr D3D12_HEAP_PROPERTIES kHeapPropertiesUpload = {D3D12_HEAP_TYPE_UPLOAD};
+      |                                                                                       ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/ui/d3d12/d3d12_util.h:26:91: warning: missing field 'CPUPageProperty' initializer [-Wmissing-field-initializers]
+   26 | inline constexpr D3D12_HEAP_PROPERTIES kHeapPropertiesReadback = {D3D12_HEAP_TYPE_READBACK};
+      |                                                                                           ^
+11 warnings generated.
+[29/39] Building CXX object rexglue-sdk/src/graphics/CMakeFiles/rexgpu-xenos.dir/d3d12/texture_cache.cpp.obj
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/d3d12/texture_cache.cpp:22:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/command_processor.h:26:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/command_processor.h:24:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/register_file.h:19:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/registers.h:18:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/xenos.h:1621:70: warning: unused parameter 'one_reg' [-Wunused-parameter]
+ 1621 | inline uint32_t MakePacketType0(uint16_t index, uint16_t count, bool one_reg = false) {
+      |                                                                      ^
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/d3d12/texture_cache.cpp:22:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/command_processor.h:29:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/pipeline_cache.h:29:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/render_target_cache.h:27:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/texture_cache.h:24:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:167:53: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  167 |     TextureKey(const TextureKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                     ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:167:53: note: explicitly cast the pointer to silence this warning
+  167 |     TextureKey(const TextureKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                     ^
+      |                                                     (void*)
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:169:19: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  169 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:169:19: note: explicitly cast the pointer to silence this warning
+  169 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+      |                   (void*)
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:174:19: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  174 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:174:19: note: explicitly cast the pointer to silence this warning
+  174 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+      |                   (void*)
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:223:70: warning: unused parameter 'global_lock' [-Wunused-parameter]
+  223 |     bool base_outdated(const std::unique_lock<std::recursive_mutex>& global_lock) const {
+      |                                                                      ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:226:70: warning: unused parameter 'global_lock' [-Wunused-parameter]
+  226 |     bool mips_outdated(const std::unique_lock<std::recursive_mutex>& global_lock) const {
+      |                                                                      ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:467:19: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureBinding' [-Wnontrivial-memcall]
+  467 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:467:19: note: explicitly cast the pointer to silence this warning
+  467 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+      |                   (void*)
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/d3d12/texture_cache.cpp:22:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/command_processor.h:29:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/pipeline_cache.h:29:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/render_target_cache.h:29:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/render_target/cache.h:188:9: warning: field 'draw_extent_estimator_' will be initialized after field 'draw_resolution_scale_x_' [-Wreorder-ctor]
+  188 |         draw_extent_estimator_(register_file, memory, trace_writer),
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         draw_resolution_scale_x_(draw_resolution_scale_x)
+  189 |         draw_resolution_scale_x_(draw_resolution_scale_x),
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         draw_resolution_scale_y_(draw_resolution_scale_y)
+  190 |         draw_resolution_scale_y_(draw_resolution_scale_y) {
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         draw_extent_estimator_(register_file, memory, trace_writer)
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/d3d12/texture_cache.cpp:22:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/command_processor.h:29:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/pipeline_cache.h:29:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/render_target_cache.h:37:
+D:/GAME RECOMP/rexglue-sdk/include\rex/ui/d3d12/d3d12_util.h:24:89: warning: missing field 'CPUPageProperty' initializer [-Wmissing-field-initializers]
+   24 | inline constexpr D3D12_HEAP_PROPERTIES kHeapPropertiesDefault = {D3D12_HEAP_TYPE_DEFAULT};
+      |                                                                                         ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/ui/d3d12/d3d12_util.h:25:87: warning: missing field 'CPUPageProperty' initializer [-Wmissing-field-initializers]
+   25 | inline constexpr D3D12_HEAP_PROPERTIES kHeapPropertiesUpload = {D3D12_HEAP_TYPE_UPLOAD};
+      |                                                                                       ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/ui/d3d12/d3d12_util.h:26:91: warning: missing field 'CPUPageProperty' initializer [-Wmissing-field-initializers]
+   26 | inline constexpr D3D12_HEAP_PROPERTIES kHeapPropertiesReadback = {D3D12_HEAP_TYPE_READBACK};
+      |                                                                                           ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/d3d12/texture_cache.cpp:1852:28: warning: variable 'host_slice_size_base' is uninitialized when used here [-Wuninitialized]
+ 1852 |         uint32_t(is_base ? host_slice_size_base : host_slice_sizes_mips[level]);
+      |                            ^~~~~~~~~~~~~~~~~~~~
+D:/GAME RECOMP/rexglue-sdk/src/graphics/d3d12/texture_cache.cpp:1638:30: note: initialize the variable 'host_slice_size_base' to silence this warning
+ 1638 |   UINT64 host_slice_size_base;
+      |                              ^
+      |                               = 0
+12 warnings generated.
+[30/39] Building CXX object rexglue-sdk/src/rexglue/CMakeFiles/rexglue.dir/commands/legacy_config.cpp.obj
+[31/39] Building CXX object rexglue-sdk/src/graphics/CMakeFiles/rexgpu-xenos.dir/d3d12/pipeline_cache.cpp.obj
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/d3d12/pipeline_cache.cpp:33:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/command_processor.h:26:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/command_processor.h:24:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/register_file.h:19:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/registers.h:18:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/xenos.h:1621:70: warning: unused parameter 'one_reg' [-Wunused-parameter]
+ 1621 | inline uint32_t MakePacketType0(uint16_t index, uint16_t count, bool one_reg = false) {
+      |                                                                      ^
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/d3d12/pipeline_cache.cpp:33:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/command_processor.h:29:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/pipeline_cache.h:29:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/render_target_cache.h:27:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/texture_cache.h:24:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:167:53: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  167 |     TextureKey(const TextureKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                     ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:167:53: note: explicitly cast the pointer to silence this warning
+  167 |     TextureKey(const TextureKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                     ^
+      |                                                     (void*)
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:169:19: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  169 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:169:19: note: explicitly cast the pointer to silence this warning
+  169 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+      |                   (void*)
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:174:19: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  174 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:174:19: note: explicitly cast the pointer to silence this warning
+  174 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+      |                   (void*)
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:223:70: warning: unused parameter 'global_lock' [-Wunused-parameter]
+  223 |     bool base_outdated(const std::unique_lock<std::recursive_mutex>& global_lock) const {
+      |                                                                      ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:226:70: warning: unused parameter 'global_lock' [-Wunused-parameter]
+  226 |     bool mips_outdated(const std::unique_lock<std::recursive_mutex>& global_lock) const {
+      |                                                                      ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:467:19: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureBinding' [-Wnontrivial-memcall]
+  467 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:467:19: note: explicitly cast the pointer to silence this warning
+  467 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+      |                   (void*)
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/d3d12/pipeline_cache.cpp:33:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/command_processor.h:29:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/pipeline_cache.h:29:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/render_target_cache.h:29:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/render_target/cache.h:188:9: warning: field 'draw_extent_estimator_' will be initialized after field 'draw_resolution_scale_x_' [-Wreorder-ctor]
+  188 |         draw_extent_estimator_(register_file, memory, trace_writer),
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         draw_resolution_scale_x_(draw_resolution_scale_x)
+  189 |         draw_resolution_scale_x_(draw_resolution_scale_x),
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         draw_resolution_scale_y_(draw_resolution_scale_y)
+  190 |         draw_resolution_scale_y_(draw_resolution_scale_y) {
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |         draw_extent_estimator_(register_file, memory, trace_writer)
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/d3d12/pipeline_cache.cpp:33:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/command_processor.h:29:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/pipeline_cache.h:29:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/render_target_cache.h:37:
+D:/GAME RECOMP/rexglue-sdk/include\rex/ui/d3d12/d3d12_util.h:24:89: warning: missing field 'CPUPageProperty' initializer [-Wmissing-field-initializers]
+   24 | inline constexpr D3D12_HEAP_PROPERTIES kHeapPropertiesDefault = {D3D12_HEAP_TYPE_DEFAULT};
+      |                                                                                         ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/ui/d3d12/d3d12_util.h:25:87: warning: missing field 'CPUPageProperty' initializer [-Wmissing-field-initializers]
+   25 | inline constexpr D3D12_HEAP_PROPERTIES kHeapPropertiesUpload = {D3D12_HEAP_TYPE_UPLOAD};
+      |                                                                                       ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/ui/d3d12/d3d12_util.h:26:91: warning: missing field 'CPUPageProperty' initializer [-Wmissing-field-initializers]
+   26 | inline constexpr D3D12_HEAP_PROPERTIES kHeapPropertiesReadback = {D3D12_HEAP_TYPE_READBACK};
+      |                                                                                           ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/d3d12/pipeline_cache.cpp:105:32: warning: moving a temporary object prevents copy elision [-Wpessimizing-move]
+  105 |     depth_only_pixel_shader_ = std::move(shader_translator_->CreateDepthOnlyPixelShader());
+      |                                ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/d3d12/pipeline_cache.cpp:105:32: note: remove std::move call here
+  105 |     depth_only_pixel_shader_ = std::move(shader_translator_->CreateDepthOnlyPixelShader());
+      |                                ^~~~~~~~~~                                                ~
+12 warnings generated.
+[32/39] Building CXX object rexglue-sdk/src/rexglue/CMakeFiles/rexglue.dir/commands/migration_scan.cpp.obj
+[33/39] Building CXX object rexglue-sdk/src/rexglue/CMakeFiles/rexglue.dir/main.cpp.obj
+[34/39] Building CXX object rexglue-sdk/src/rexglue/CMakeFiles/rexglue.dir/commands/test_recompiler.cpp.obj
+[35/39] Building CXX object rexglue-sdk/src/rexglue/CMakeFiles/rexglue.dir/commands/codegen_command.cpp.obj
+[36/39] Building CXX object rexglue-sdk/src/rexglue/CMakeFiles/rexglue.dir/commands/init_command.cpp.obj
+D:/GAME RECOMP/rexglue-sdk/src/rexglue/commands/init_command.cpp:390:3: warning: missing field 'graphics' initializer [-Wmissing-designated-field-initializers]
+  390 |   });
+      |   ^
+1 warning generated.
+ninja: build stopped: subcommand failed.
+EXIT_CODE=1

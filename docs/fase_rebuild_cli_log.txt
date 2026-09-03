@@ -1,0 +1,34 @@
+[0/2] Re-checking globbed directories...
+[1/10] Linking CXX static library "D:\GAME RECOMP\rexglue-sdk\out\win-amd64\rexcodegen.lib"
+[2/10] Building CXX object rexglue-sdk/src/rexglue/CMakeFiles/rexglue.dir/ui/ui.cpp.obj
+[3/10] Building CXX object rexglue-sdk/src/rexglue/CMakeFiles/rexglue.dir/ui/progress.cpp.obj
+[4/10] Building CXX object rexglue-sdk/src/rexglue/CMakeFiles/rexglue.dir/commands/project_scan.cpp.obj
+[5/10] Building CXX object rexglue-sdk/src/rexglue/CMakeFiles/rexglue.dir/main.cpp.obj
+[6/10] Building CXX object rexglue-sdk/src/rexglue/CMakeFiles/rexglue.dir/commands/codegen_command.cpp.obj
+[7/10] Building CXX object rexglue-sdk/src/rexglue/CMakeFiles/rexglue.dir/commands/test_recompiler.cpp.obj
+In file included from D:/GAME RECOMP/rexglue-sdk/src/rexglue/commands/test_recompiler.cpp:34:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/codegen/test_support.h:19:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/system/module.h:19:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/memory.h:27:
+D:/GAME RECOMP/rexglue-sdk/include\rex/system/xmemory.h:256:48: warning: unused parameter 'host_page_number' [-Wunused-parameter]
+  256 |   virtual bool IsHostPageWriteWatched(uint32_t host_page_number) const { return false; }
+      |                                                ^
+1 warning generated.
+[8/10] Building CXX object rexglue-sdk/src/rexglue/CMakeFiles/rexglue.dir/commands/init_command.cpp.obj
+In file included from D:/GAME RECOMP/rexglue-sdk/src/rexglue/commands/init_command.cpp:27:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/runtime.h:24:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/filesystem/vfs.h:19:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/filesystem/device.h:17:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/filesystem/entry.h:19:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/filesystem.h:22:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/string.h:20:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/memory.h:27:
+D:/GAME RECOMP/rexglue-sdk/include\rex/system/xmemory.h:256:48: warning: unused parameter 'host_page_number' [-Wunused-parameter]
+  256 |   virtual bool IsHostPageWriteWatched(uint32_t host_page_number) const { return false; }
+      |                                                ^
+D:/GAME RECOMP/rexglue-sdk/src/rexglue/commands/init_command.cpp:390:3: warning: missing field 'graphics' initializer [-Wmissing-designated-field-initializers]
+  390 |   });
+      |   ^
+2 warnings generated.
+[9/10] Linking CXX executable "D:\GAME RECOMP\rexglue-sdk\out\win-amd64\rexglue.exe"
+EXIT_CODE=0

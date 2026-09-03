@@ -1,0 +1,791 @@
+[0/2] Re-checking globbed directories...
+[1/130] Embedding inja templates
+[2/130] Building CXX object rexglue-sdk/src/ui/CMakeFiles/rexui.dir/overlay/achievements_overlay.cpp.obj
+In file included from D:/GAME RECOMP/rexglue-sdk/src/ui/overlay/achievements_overlay.cpp:15:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/runtime.h:24:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/filesystem/vfs.h:19:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/filesystem/device.h:17:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/filesystem/entry.h:19:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/filesystem.h:22:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/string.h:20:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/memory.h:27:
+D:/GAME RECOMP/rexglue-sdk/include\rex/system/xmemory.h:256:48: warning: unused parameter 'host_page_number' [-Wunused-parameter]
+  256 |   virtual bool IsHostPageWriteWatched(uint32_t host_page_number) const { return false; }
+      |                                                ^
+1 warning generated.
+[3/130] Building CXX object rexglue-sdk/src/ui/CMakeFiles/rexui.dir/overlay/achievement_icon_cache.cpp.obj
+In file included from D:/GAME RECOMP/rexglue-sdk/src/ui/overlay/achievement_icon_cache.cpp:18:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/runtime.h:24:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/filesystem/vfs.h:19:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/filesystem/device.h:17:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/filesystem/entry.h:19:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/filesystem.h:22:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/string.h:20:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/memory.h:27:
+D:/GAME RECOMP/rexglue-sdk/include\rex/system/xmemory.h:256:48: warning: unused parameter 'host_page_number' [-Wunused-parameter]
+  256 |   virtual bool IsHostPageWriteWatched(uint32_t host_page_number) const { return false; }
+      |                                                ^
+1 warning generated.
+[4/130] Building CXX object rexglue-sdk/src/codegen/CMakeFiles/rexcodegen.dir/codegen.cpp.obj
+In file included from D:/GAME RECOMP/rexglue-sdk/src/codegen/codegen.cpp:19:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/runtime.h:24:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/filesystem/vfs.h:19:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/filesystem/device.h:17:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/filesystem/entry.h:19:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/filesystem.h:22:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/string.h:20:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/memory.h:27:
+D:/GAME RECOMP/rexglue-sdk/include\rex/system/xmemory.h:256:48: warning: unused parameter 'host_page_number' [-Wunused-parameter]
+  256 |   virtual bool IsHostPageWriteWatched(uint32_t host_page_number) const { return false; }
+      |                                                ^
+D:/GAME RECOMP/rexglue-sdk/src/codegen/codegen.cpp:53:3: warning: missing field 'graphics' initializer [-Wmissing-designated-field-initializers]
+   53 |   });
+      |   ^
+2 warnings generated.
+[5/130] Building CXX object rexglue-sdk/src/codegen/CMakeFiles/rexcodegen.dir/codegen_context.cpp.obj
+In file included from D:/GAME RECOMP/rexglue-sdk/src/codegen/codegen_context.cpp:19:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/runtime.h:24:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/filesystem/vfs.h:19:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/filesystem/device.h:17:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/filesystem/entry.h:19:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/filesystem.h:22:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/string.h:20:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/memory.h:27:
+D:/GAME RECOMP/rexglue-sdk/include\rex/system/xmemory.h:256:48: warning: unused parameter 'host_page_number' [-Wunused-parameter]
+  256 |   virtual bool IsHostPageWriteWatched(uint32_t host_page_number) const { return false; }
+      |                                                ^
+1 warning generated.
+[6/130] Building CXX object rexglue-sdk/src/audio/CMakeFiles/rexaudio.dir/cmake_pch.hxx.pch
+[7/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/cmake_pch.hxx.pch
+[8/130] Building CXX object rexglue-sdk/src/core/CMakeFiles/rexcore.dir/exception_handler_win.cpp.obj
+In file included from D:/GAME RECOMP/rexglue-sdk/src/core/exception_handler_win.cpp:24:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/ppc/stack.h:20:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/system/kernel_state.h:27:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/filesystem/vfs.h:19:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/filesystem/device.h:17:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/filesystem/entry.h:19:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/filesystem.h:22:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/string.h:20:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/memory.h:27:
+D:/GAME RECOMP/rexglue-sdk/include\rex/system/xmemory.h:256:48: warning: unused parameter 'host_page_number' [-Wunused-parameter]
+  256 |   virtual bool IsHostPageWriteWatched(uint32_t host_page_number) const { return false; }
+      |                                                ^
+1 warning generated.
+[9/130] Building CXX object rexglue-sdk/src/audio/CMakeFiles/rexaudio.dir/xma_register_file.cpp.obj
+[10/130] Building CXX object rexglue-sdk/src/audio/CMakeFiles/rexaudio.dir/downmix.cpp.obj
+[11/130] Building CXX object rexglue-sdk/src/audio/CMakeFiles/rexaudio.dir/audio_driver.cpp.obj
+[12/130] Building CXX object rexglue-sdk/src/audio/CMakeFiles/rexaudio.dir/nop/nop_audio_system.cpp.obj
+[13/130] Building CXX object rexglue-sdk/src/input/CMakeFiles/rexinput.dir/cmake_pch.hxx.pch
+[14/130] Building CXX object rexglue-sdk/src/audio/CMakeFiles/rexaudio.dir/sdl/sdl_audio_system.cpp.obj
+[15/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/embedded_metadata.cpp.obj
+[16/130] Building CXX object rexglue-sdk/src/audio/CMakeFiles/rexaudio.dir/xma_context.cpp.obj
+In file included from D:/GAME RECOMP/rexglue-sdk/src/audio/xma_context.cpp:17:
+D:/GAME RECOMP/rexglue-sdk/include\rex/audio/xma/decoder.h:62:47: warning: unused parameter 'ppc_context' [-Wunused-parameter]
+   62 |   static uint32_t MMIOReadRegisterThunk(void* ppc_context, XmaDecoder* as, uint32_t addr) {
+      |                                               ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/audio/xma/decoder.h:65:44: warning: unused parameter 'ppc_context' [-Wunused-parameter]
+   65 |   static void MMIOWriteRegisterThunk(void* ppc_context, XmaDecoder* as, uint32_t addr,
+      |                                            ^
+2 warnings generated.
+[17/130] Building CXX object rexglue-sdk/src/audio/CMakeFiles/rexaudio.dir/audio_system.cpp.obj
+In file included from D:/GAME RECOMP/rexglue-sdk/src/audio/audio_system.cpp:16:
+D:/GAME RECOMP/rexglue-sdk/include\rex/audio/xma/decoder.h:62:47: warning: unused parameter 'ppc_context' [-Wunused-parameter]
+   62 |   static uint32_t MMIOReadRegisterThunk(void* ppc_context, XmaDecoder* as, uint32_t addr) {
+      |                                               ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/audio/xma/decoder.h:65:44: warning: unused parameter 'ppc_context' [-Wunused-parameter]
+   65 |   static void MMIOWriteRegisterThunk(void* ppc_context, XmaDecoder* as, uint32_t addr,
+      |                                            ^
+2 warnings generated.
+[18/130] Building CXX object rexglue-sdk/src/audio/CMakeFiles/rexaudio.dir/xma_decoder.cpp.obj
+In file included from D:/GAME RECOMP/rexglue-sdk/src/audio/xma_decoder.cpp:13:
+D:/GAME RECOMP/rexglue-sdk/include\rex/audio/xma/decoder.h:62:47: warning: unused parameter 'ppc_context' [-Wunused-parameter]
+   62 |   static uint32_t MMIOReadRegisterThunk(void* ppc_context, XmaDecoder* as, uint32_t addr) {
+      |                                               ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/audio/xma/decoder.h:65:44: warning: unused parameter 'ppc_context' [-Wunused-parameter]
+   65 |   static void MMIOWriteRegisterThunk(void* ppc_context, XmaDecoder* as, uint32_t addr,
+      |                                            ^
+D:/GAME RECOMP/rexglue-sdk/src/audio/xma_decoder.cpp:62:28: warning: unused parameter 'avcl' [-Wunused-parameter]
+   62 | void av_log_callback(void* avcl, int level, const char* fmt, va_list va) {
+      |                            ^
+D:/GAME RECOMP/rexglue-sdk/src/audio/xma_decoder.cpp:208:13: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long long') and 'int' [-Wsign-compare]
+  208 |   if (index == -1) {
+      |       ~~~~~ ^  ~~
+4 warnings generated.
+[19/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/achievements.cpp.obj
+[20/130] Building CXX object rexglue-sdk/src/audio/CMakeFiles/rexaudio.dir/sdl/sdl_audio_driver.cpp.obj
+[21/130] Building CXX object rexglue-sdk/src/input/CMakeFiles/rexinput.dir/state_merge.cpp.obj
+[22/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/kernel_module.cpp.obj
+[23/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/user_module.cpp.obj
+[24/130] Building CXX object rexglue-sdk/src/input/CMakeFiles/rexinput.dir/device_assignment.cpp.obj
+[25/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/runtime.cpp.obj
+[26/130] Building CXX object rexglue-sdk/src/input/CMakeFiles/rexinput.dir/nop/nop_input_driver.cpp.obj
+D:/GAME RECOMP/rexglue-sdk/src/input/nop/nop_input_driver.cpp:47:70: warning: unused parameter 'flags' [-Wunused-parameter]
+   47 | X_RESULT NopInputDriver::GetDeviceCapabilities(DeviceId id, uint32_t flags,
+      |                                                                      ^
+D:/GAME RECOMP/rexglue-sdk/src/input/nop/nop_input_driver.cpp:82:77: warning: unused parameter 'vibration' [-Wunused-parameter]
+   82 | X_RESULT NopInputDriver::SetDeviceVibration(DeviceId id, X_INPUT_VIBRATION* vibration) {
+      |                                                                             ^
+D:/GAME RECOMP/rexglue-sdk/src/input/nop/nop_input_driver.cpp:90:67: warning: unused parameter 'flags' [-Wunused-parameter]
+   90 | X_RESULT NopInputDriver::GetDeviceKeystroke(DeviceId id, uint32_t flags,
+      |                                                                   ^
+D:/GAME RECOMP/rexglue-sdk/src/input/nop/nop_input_driver.cpp:91:64: warning: unused parameter 'out_keystroke' [-Wunused-parameter]
+   91 |                                             X_INPUT_KEYSTROKE* out_keystroke) {
+      |                                                                ^
+4 warnings generated.
+[27/130] Building CXX object rexglue-sdk/src/input/CMakeFiles/rexinput.dir/xinput/xinput_input_driver.cpp.obj
+D:/GAME RECOMP/rexglue-sdk/src/input/xinput/xinput_input_driver.cpp:118:28: warning: implicit conversion between pointer-to-function and pointer-to-object is a Microsoft extension [-Wmicrosoft-cast]
+  118 |   XInputGetCapabilities_ = xigc;
+      |                            ^~~~
+D:/GAME RECOMP/rexglue-sdk/src/input/xinput/xinput_input_driver.cpp:119:21: warning: implicit conversion between pointer-to-function and pointer-to-object is a Microsoft extension [-Wmicrosoft-cast]
+  119 |   XInputGetState_ = xigs;
+      |                     ^~~~
+D:/GAME RECOMP/rexglue-sdk/src/input/xinput/xinput_input_driver.cpp:120:23: warning: implicit conversion between pointer-to-function and pointer-to-object is a Microsoft extension [-Wmicrosoft-cast]
+  120 |   XInputGetStateEx_ = xigsEx;
+      |                       ^~~~~~
+D:/GAME RECOMP/rexglue-sdk/src/input/xinput/xinput_input_driver.cpp:121:25: warning: implicit conversion between pointer-to-function and pointer-to-object is a Microsoft extension [-Wmicrosoft-cast]
+  121 |   XInputGetKeystroke_ = xigk;
+      |                         ^~~~
+D:/GAME RECOMP/rexglue-sdk/src/input/xinput/xinput_input_driver.cpp:122:21: warning: implicit conversion between pointer-to-function and pointer-to-object is a Microsoft extension [-Wmicrosoft-cast]
+  122 |   XInputSetState_ = xiss;
+      |                     ^~~~
+D:/GAME RECOMP/rexglue-sdk/src/input/xinput/xinput_input_driver.cpp:123:19: warning: implicit conversion between pointer-to-function and pointer-to-object is a Microsoft extension [-Wmicrosoft-cast]
+  123 |   XInputEnable_ = xie;
+      |                   ^~~
+D:/GAME RECOMP/rexglue-sdk/src/input/xinput/xinput_input_driver.cpp:250:70: warning: unused parameter 'flags' [-Wunused-parameter]
+  250 | X_RESULT XinputInputDriver::GetDeviceKeystroke(DeviceId id, uint32_t flags,
+      |                                                                      ^
+7 warnings generated.
+[28/130] Building CXX object rexglue-sdk/src/input/CMakeFiles/rexinput.dir/input_system.cpp.obj
+[29/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/xmemory.cpp.obj
+D:/GAME RECOMP/rexglue-sdk/src/system/xmemory.cpp:2175:76: warning: unused parameter 'global_lock_locked_once' [-Wunused-parameter]
+ 2175 | bool PhysicalHeap::TriggerCallbacks(std::unique_lock<std::recursive_mutex> global_lock_locked_once,
+      |                                                                            ^
+1 warning generated.
+[30/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/xevent.cpp.obj
+D:/GAME RECOMP/rexglue-sdk/src/system/xevent.cpp:35:37: warning: unused parameter 'native_ptr' [-Wunused-parameter]
+   35 | void XEvent::InitializeNative(void* native_ptr, X_DISPATCH_HEADER* header) {
+      |                                     ^
+D:/GAME RECOMP/rexglue-sdk/src/system/xevent.cpp:76:30: warning: unused parameter 'priority_increment' [-Wunused-parameter]
+   76 | int32_t XEvent::Set(uint32_t priority_increment, bool wait) {
+      |                              ^
+D:/GAME RECOMP/rexglue-sdk/src/system/xevent.cpp:76:55: warning: unused parameter 'wait' [-Wunused-parameter]
+   76 | int32_t XEvent::Set(uint32_t priority_increment, bool wait) {
+      |                                                       ^
+D:/GAME RECOMP/rexglue-sdk/src/system/xevent.cpp:81:32: warning: unused parameter 'priority_increment' [-Wunused-parameter]
+   81 | int32_t XEvent::Pulse(uint32_t priority_increment, bool wait) {
+      |                                ^
+D:/GAME RECOMP/rexglue-sdk/src/system/xevent.cpp:81:57: warning: unused parameter 'wait' [-Wunused-parameter]
+   81 | int32_t XEvent::Pulse(uint32_t priority_increment, bool wait) {
+      |                                                         ^
+5 warnings generated.
+[31/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/xfile.cpp.obj
+D:/GAME RECOMP/rexglue-sdk/src/system/xfile.cpp:229:50: warning: comparison of integers of different signs: 'uint64_t' (aka 'unsigned long long') and 'int' [-Wsign-compare]
+  229 |             ? ((byte_offset != -1 && byte_offset != -2) ? byte_offset + read_total : byte_offset)
+      |                                      ~~~~~~~~~~~ ^  ~~
+D:/GAME RECOMP/rexglue-sdk/src/system/xfile.cpp:229:29: warning: comparison of integers of different signs: 'uint64_t' (aka 'unsigned long long') and 'int' [-Wsign-compare]
+  229 |             ? ((byte_offset != -1 && byte_offset != -2) ? byte_offset + read_total : byte_offset)
+      |                 ~~~~~~~~~~~ ^  ~~
+2 warnings generated.
+[32/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/xsemaphore.cpp.obj
+D:/GAME RECOMP/rexglue-sdk/src/system/xsemaphore.cpp:32:72: warning: unused parameter 'header' [-Wunused-parameter]
+   32 | bool XSemaphore::InitializeNative(void* native_ptr, X_DISPATCH_HEADER* header) {
+      |                                                                        ^
+1 warning generated.
+[33/130] Building CXX object rexglue-sdk/src/codegen/CMakeFiles/rexcodegen.dir/project_recompiler.cpp.obj
+In file included from D:/GAME RECOMP/rexglue-sdk/src/codegen/project_recompiler.cpp:34:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/runtime.h:24:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/filesystem/vfs.h:19:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/filesystem/device.h:17:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/filesystem/entry.h:19:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/filesystem.h:22:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/string.h:20:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/memory.h:27:
+D:/GAME RECOMP/rexglue-sdk/include\rex/system/xmemory.h:256:48: warning: unused parameter 'host_page_number' [-Wunused-parameter]
+  256 |   virtual bool IsHostPageWriteWatched(uint32_t host_page_number) const { return false; }
+      |                                                ^
+D:/GAME RECOMP/rexglue-sdk/src/codegen/project_recompiler.cpp:245:3: warning: missing field 'graphics' initializer [-Wmissing-designated-field-initializers]
+  245 |   });
+      |   ^
+2 warnings generated.
+[34/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/xmutant.cpp.obj
+D:/GAME RECOMP/rexglue-sdk/src/system/xmutant.cpp:33:38: warning: unused parameter 'native_ptr' [-Wunused-parameter]
+   33 | void XMutant::InitializeNative(void* native_ptr, X_DISPATCH_HEADER* header) {
+      |                                      ^
+D:/GAME RECOMP/rexglue-sdk/src/system/xmutant.cpp:33:69: warning: unused parameter 'header' [-Wunused-parameter]
+   33 | void XMutant::InitializeNative(void* native_ptr, X_DISPATCH_HEADER* header) {
+      |                                                                     ^
+D:/GAME RECOMP/rexglue-sdk/src/system/xmutant.cpp:40:42: warning: unused parameter 'priority_increment' [-Wunused-parameter]
+   40 | X_STATUS XMutant::ReleaseMutant(uint32_t priority_increment, bool abandon, bool wait) {
+      |                                          ^
+D:/GAME RECOMP/rexglue-sdk/src/system/xmutant.cpp:40:81: warning: unused parameter 'wait' [-Wunused-parameter]
+   40 | X_STATUS XMutant::ReleaseMutant(uint32_t priority_increment, bool abandon, bool wait) {
+      |                                                                                 ^
+4 warnings generated.
+[35/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/xthread.cpp.obj
+D:/GAME RECOMP/rexglue-sdk/src/system/xthread.cpp:1228:34: warning: unused parameter 'processor_mode' [-Wunused-parameter]
+ 1228 | X_STATUS XThread::Delay(uint32_t processor_mode, uint32_t alertable, uint64_t interval) {
+      |                                  ^
+1 warning generated.
+[36/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/xtimer.cpp.obj
+[37/130] Building CXX object rexglue-sdk/src/input/CMakeFiles/rexinput.dir/sdl/sdl_input_driver.cpp.obj
+D:/GAME RECOMP/rexglue-sdk/src/input/sdl/sdl_input_driver.cpp:169:70: warning: unused parameter 'flags' [-Wunused-parameter]
+  169 | X_RESULT SDLInputDriver::GetDeviceCapabilities(DeviceId id, uint32_t flags,
+      |                                                                      ^
+D:/GAME RECOMP/rexglue-sdk/src/input/sdl/sdl_input_driver.cpp:248:67: warning: unused parameter 'flags' [-Wunused-parameter]
+  248 | X_RESULT SDLInputDriver::GetDeviceKeystroke(DeviceId id, uint32_t flags,
+      |                                                                   ^
+2 warnings generated.
+[38/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/guest_exception_report.cpp.obj
+[39/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/xiocompletion.cpp.obj
+[40/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/xnotifylistener.cpp.obj
+[41/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/xenumerator.cpp.obj
+D:/GAME RECOMP/rexglue-sdk/src/system/xenumerator.cpp:55:56: warning: unused parameter 'buffer_ptr' [-Wunused-parameter]
+   55 | uint32_t XStaticUntypedEnumerator::WriteItems(uint32_t buffer_ptr, uint8_t* buffer_data,
+      |                                                        ^
+1 warning generated.
+[42/130] Building CXX object rexglue-sdk/src/input/CMakeFiles/rexinput.dir/mnk/mnk_input_driver.cpp.obj
+D:/GAME RECOMP/rexglue-sdk/src/input/mnk/mnk_input_driver.cpp:236:70: warning: unused parameter 'flags' [-Wunused-parameter]
+  236 | X_RESULT MnkInputDriver::GetDeviceCapabilities(DeviceId id, uint32_t flags,
+      |                                                                      ^
+D:/GAME RECOMP/rexglue-sdk/src/input/mnk/mnk_input_driver.cpp:367:77: warning: unused parameter 'vibration' [-Wunused-parameter]
+  367 | X_RESULT MnkInputDriver::SetDeviceVibration(DeviceId id, X_INPUT_VIBRATION* vibration) {
+      |                                                                             ^
+D:/GAME RECOMP/rexglue-sdk/src/input/mnk/mnk_input_driver.cpp:374:67: warning: unused parameter 'flags' [-Wunused-parameter]
+  374 | X_RESULT MnkInputDriver::GetDeviceKeystroke(DeviceId id, uint32_t flags,
+      |                                                                   ^
+3 warnings generated.
+[43/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/xsymboliclink.cpp.obj
+[44/130] Building CXX object rexglue-sdk/src/codegen/CMakeFiles/rexcodegen.dir/codegen_writer.cpp.obj
+In file included from D:/GAME RECOMP/rexglue-sdk/src/codegen/codegen_writer.cpp:30:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/runtime.h:24:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/filesystem/vfs.h:19:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/filesystem/device.h:17:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/filesystem/entry.h:19:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/filesystem.h:22:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/string.h:20:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/memory.h:27:
+D:/GAME RECOMP/rexglue-sdk/include\rex/system/xmemory.h:256:48: warning: unused parameter 'host_page_number' [-Wunused-parameter]
+  256 |   virtual bool IsHostPageWriteWatched(uint32_t host_page_number) const { return false; }
+      |                                                ^
+1 warning generated.
+[45/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/guest_path.cpp.obj
+[46/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/util/native_list.cpp.obj
+[47/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/achievement_manager.cpp.obj
+[48/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/xmodule.cpp.obj
+D:/GAME RECOMP/rexglue-sdk/src/system/xmodule.cpp:55:53: warning: unused parameter 'name' [-Wunused-parameter]
+   55 | X_STATUS XModule::GetSection(const std::string_view name, uint32_t* out_section_data,
+      |                                                     ^
+D:/GAME RECOMP/rexglue-sdk/src/system/xmodule.cpp:55:69: warning: unused parameter 'out_section_data' [-Wunused-parameter]
+   55 | X_STATUS XModule::GetSection(const std::string_view name, uint32_t* out_section_data,
+      |                                                                     ^
+D:/GAME RECOMP/rexglue-sdk/src/system/xmodule.cpp:56:40: warning: unused parameter 'out_section_size' [-Wunused-parameter]
+   56 |                              uint32_t* out_section_size) {
+      |                                        ^
+3 warnings generated.
+[49/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/util/xdbf_utils.cpp.obj
+[50/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/util/gameinfo_utils.cpp.obj
+[51/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/xsocket.cpp.obj
+D:/GAME RECOMP/rexglue-sdk/src/system/xsocket.cpp:56:22: warning: comparison of integers of different signs: 'uint64_t' (aka 'unsigned long long') and 'int' [-Wsign-compare]
+   56 |   if (native_handle_ == -1) {
+      |       ~~~~~~~~~~~~~~ ^  ~~
+D:/GAME RECOMP/rexglue-sdk/src/system/xsocket.cpp:137:11: warning: comparison of integers of different signs: 'uintptr_t' (aka 'unsigned long long') and 'int' [-Wsign-compare]
+  137 |   if (ret == -1) {
+      |       ~~~ ^  ~~
+2 warnings generated.
+[52/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/xobject.cpp.obj
+D:/GAME RECOMP/rexglue-sdk/src/system/xobject.cpp:38:7: warning: field 'type_' will be initialized after field 'pointer_ref_count_' [-Wreorder-ctor]
+   38 |       type_(type),
+      |       ^~~~~~~~~~~
+      |       pointer_ref_count_(1)
+   39 |       pointer_ref_count_(1),
+      |       ~~~~~~~~~~~~~~~~~~~~~
+      |       type_(type)
+D:/GAME RECOMP/rexglue-sdk/src/system/xobject.cpp:203:33: warning: unused parameter 'wait_reason' [-Wunused-parameter]
+  203 | X_STATUS XObject::Wait(uint32_t wait_reason, uint32_t processor_mode, uint32_t alertable,
+      |                                 ^
+D:/GAME RECOMP/rexglue-sdk/src/system/xobject.cpp:203:55: warning: unused parameter 'processor_mode' [-Wunused-parameter]
+  203 | X_STATUS XObject::Wait(uint32_t wait_reason, uint32_t processor_mode, uint32_t alertable,
+      |                                                       ^
+D:/GAME RECOMP/rexglue-sdk/src/system/xobject.cpp:235:88: warning: unused parameter 'wait_reason' [-Wunused-parameter]
+  235 | X_STATUS XObject::SignalAndWait(XObject* signal_object, XObject* wait_object, uint32_t wait_reason,
+      |                                                                                        ^
+D:/GAME RECOMP/rexglue-sdk/src/system/xobject.cpp:236:42: warning: unused parameter 'processor_mode' [-Wunused-parameter]
+  236 |                                 uint32_t processor_mode, uint32_t alertable,
+      |                                          ^
+D:/GAME RECOMP/rexglue-sdk/src/system/xobject.cpp:263:41: warning: unused parameter 'wait_reason' [-Wunused-parameter]
+  263 |                                uint32_t wait_reason, uint32_t processor_mode, uint32_t alertable,
+      |                                         ^
+D:/GAME RECOMP/rexglue-sdk/src/system/xobject.cpp:263:63: warning: unused parameter 'processor_mode' [-Wunused-parameter]
+  263 |                                uint32_t wait_reason, uint32_t processor_mode, uint32_t alertable,
+      |                                                               ^
+7 warnings generated.
+[53/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/kernel_state.cpp.obj
+D:/GAME RECOMP/rexglue-sdk/src/system/kernel_state.cpp:142:87: warning: unused parameter 'tls_data_size' [-Wunused-parameter]
+  142 | void KernelState::SetProcessTLSVars(X_KPROCESS* process, uint32_t num_slots, uint32_t tls_data_size,
+      |                                                                                       ^
+D:/GAME RECOMP/rexglue-sdk/src/system/kernel_state.cpp:454:43: warning: unused parameter 'module' [-Wunused-parameter]
+  454 | void KernelState::RegisterModule(XModule* module) {}
+      |                                           ^
+D:/GAME RECOMP/rexglue-sdk/src/system/kernel_state.cpp:456:45: warning: unused parameter 'module' [-Wunused-parameter]
+  456 | void KernelState::UnregisterModule(XModule* module) {}
+      |                                             ^
+3 warnings generated.
+[54/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/xam/app_manager.cpp.obj
+[55/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/util/object_table.cpp.obj
+D:/GAME RECOMP/rexglue-sdk/src/system/util/object_table.cpp:179:12: warning: unused variable 'result' [-Wunused-variable]
+  179 |   X_STATUS result = X_STATUS_SUCCESS;
+      |            ^~~~~~
+1 warning generated.
+[56/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/ppc_types.cpp.obj
+[57/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/lzx.cpp.obj
+D:/GAME RECOMP/rexglue-sdk/src/system/lzx.cpp:71:42: warning: unused parameter 'sys' [-Wunused-parameter]
+   71 | void* mspack_memory_alloc(mspack_system* sys, size_t chars) {
+      |                                          ^
+1 warning generated.
+[58/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/elf_module.cpp.obj
+[59/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/export_resolver.cpp.obj
+[60/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/entry_table.cpp.obj
+[61/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/mmio_handler.cpp.obj
+D:/GAME RECOMP/rexglue-sdk/src/system/mmio_handler.cpp:189:11: warning: unused variable 'rex_w' [-Wunused-variable]
+  189 |   uint8_t rex_w = rex & 0b1000;
+      |           ^~~~~
+1 warning generated.
+[62/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/memory_provenance.cpp.obj
+[63/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/xam/user_profile.cpp.obj
+[64/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/module.cpp.obj
+[65/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/nonvolatile_gpr_guard.cpp.obj
+[66/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/thread.cpp.obj
+[67/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/map_parser.cpp.obj
+[68/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/thread_state.cpp.obj
+[69/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/xam/content_manager.cpp.obj
+D:/GAME RECOMP/rexglue-sdk/src/system/xam/content_manager.cpp:394:50: warning: unused parameter 'xuid' [-Wunused-parameter]
+  394 | X_RESULT ContentManager::UnmountContent(uint64_t xuid, const XCONTENT_AGGREGATE_DATA& data) {
+      |                                                  ^
+1 warning generated.
+[70/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/gpu_plugin_loader.cpp.obj
+[71/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/kernel_init.cpp.obj
+D:/GAME RECOMP/rexglue-sdk/src/kernel/kernel_init.cpp:25:32: warning: unused parameter 'runtime' [-Wunused-parameter]
+   25 | void InitializeKernel(Runtime* runtime, system::KernelState* kernel_state) {
+      |                                ^
+1 warning generated.
+[72/130] Building CXX object rexglue-sdk/src/codegen/CMakeFiles/rexcodegen.dir/template_registry.cpp.obj
+[73/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/xam/xam_debug.cpp.obj
+[74/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/function_dispatcher.cpp.obj
+D:/GAME RECOMP/rexglue-sdk/src/system/function_dispatcher.cpp:249:3: warning: missing field 'thunk_addresses' initializer [-Wmissing-designated-field-initializers]
+  249 |   });
+      |   ^
+1 warning generated.
+[75/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/xam/xam_content_aggregate.cpp.obj
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_content_aggregate.cpp:82:94: warning: unused parameter 'unk3' [-Wunused-parameter]
+   82 | u32 XamContentAggregateCreateEnumerator_entry(u64 xuid, u32 device_id, u32 content_type, u32 unk3,
+      |                                                                                              ^
+1 warning generated.
+[76/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/xam/xam_avatar.cpp.obj
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_avatar.cpp:23:35: warning: unused parameter 'unk1' [-Wunused-parameter]
+   23 | u32 XamAvatarInitialize_entry(u32 unk1,                  // 1, 4, etc
+      |                                   ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_avatar.cpp:24:35: warning: unused parameter 'unk2' [-Wunused-parameter]
+   24 |                               u32 unk2,                  // 0 or 1
+      |                                   ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_avatar.cpp:25:35: warning: unused parameter 'processor_number' [-Wunused-parameter]
+   25 |                               u32 processor_number,      // for thread creation?
+      |                                   ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_avatar.cpp:26:42: warning: unused parameter 'function_ptrs' [-Wunused-parameter]
+   26 |                               mapped_u32 function_ptrs,  // 20b, 5 pointers
+      |                                          ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_avatar.cpp:27:43: warning: unused parameter 'unk5' [-Wunused-parameter]
+   27 |                               mapped_void unk5,          // ptr in data segment
+      |                                           ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_avatar.cpp:28:35: warning: unused parameter 'unk6' [-Wunused-parameter]
+   28 |                               u32 unk6                   // flags - 0x00300000, 0x30, etc
+      |                                   ^
+6 warnings generated.
+[77/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/xam/xam_content_device.cpp.obj
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_content_device.cpp:126:48: warning: unused parameter 'content_type' [-Wunused-parameter]
+  126 | u32 XamContentCreateDeviceEnumerator_entry(u32 content_type, u32 content_flags, u32 max_count,
+      |                                                ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_content_device.cpp:126:66: warning: unused parameter 'content_flags' [-Wunused-parameter]
+  126 | u32 XamContentCreateDeviceEnumerator_entry(u32 content_type, u32 content_flags, u32 max_count,
+      |                                                                  ^
+2 warnings generated.
+[78/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/xam/xam_enum.cpp.obj
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_enum.cpp:36:34: warning: unused parameter 'buffer_size' [-Wunused-parameter]
+   36 |                         uint32_t buffer_size, uint32_t* items_returned, uint32_t overlapped_ptr) {
+      |                                  ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_enum.cpp:86:41: warning: unused parameter 'unk1' [-Wunused-parameter]
+   86 | u32 XamCreateEnumeratorHandle_entry(u32 unk1, u32 unk2, u32 unk3, u32 unk4, u32 unk5, u32 unk6,
+      |                                         ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_enum.cpp:86:51: warning: unused parameter 'unk2' [-Wunused-parameter]
+   86 | u32 XamCreateEnumeratorHandle_entry(u32 unk1, u32 unk2, u32 unk3, u32 unk4, u32 unk5, u32 unk6,
+      |                                                   ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_enum.cpp:86:61: warning: unused parameter 'unk3' [-Wunused-parameter]
+   86 | u32 XamCreateEnumeratorHandle_entry(u32 unk1, u32 unk2, u32 unk3, u32 unk4, u32 unk5, u32 unk6,
+      |                                                             ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_enum.cpp:86:71: warning: unused parameter 'unk4' [-Wunused-parameter]
+   86 | u32 XamCreateEnumeratorHandle_entry(u32 unk1, u32 unk2, u32 unk3, u32 unk4, u32 unk5, u32 unk6,
+      |                                                                       ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_enum.cpp:86:81: warning: unused parameter 'unk5' [-Wunused-parameter]
+   86 | u32 XamCreateEnumeratorHandle_entry(u32 unk1, u32 unk2, u32 unk3, u32 unk4, u32 unk5, u32 unk6,
+      |                                                                                 ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_enum.cpp:86:91: warning: unused parameter 'unk6' [-Wunused-parameter]
+   86 | u32 XamCreateEnumeratorHandle_entry(u32 unk1, u32 unk2, u32 unk3, u32 unk4, u32 unk5, u32 unk6,
+      |                                                                                           ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_enum.cpp:87:41: warning: unused parameter 'unk7' [-Wunused-parameter]
+   87 |                                     u32 unk7, u32 unk8) {
+      |                                         ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_enum.cpp:87:51: warning: unused parameter 'unk8' [-Wunused-parameter]
+   87 |                                     u32 unk7, u32 unk8) {
+      |                                                   ^
+9 warnings generated.
+[79/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/xex_module.cpp.obj
+D:/GAME RECOMP/rexglue-sdk/src/system/xex_module.cpp:41:87: warning: unused parameter 'output_size' [-Wunused-parameter]
+   41 |                         const size_t input_size, uint8_t* output_buffer, const size_t output_size) {
+      |                                                                                       ^
+D:/GAME RECOMP/rexglue-sdk/src/system/xex_module.cpp:245:10: warning: unused variable 'mem_size' [-Wunused-variable]
+  245 |   size_t mem_size = module->xex_header_mem_.size();
+      |          ^~~~~~~~
+D:/GAME RECOMP/rexglue-sdk/src/system/xex_module.cpp:541:18: warning: unused variable 'exe_length' [-Wunused-variable]
+  541 |   const uint32_t exe_length = static_cast<uint32_t>(xex_length - xex_header()->header_size);
+      |                  ^~~~~~~~~~
+D:/GAME RECOMP/rexglue-sdk/src/system/xex_module.cpp:647:10: warning: unused variable 'input_size' [-Wunused-variable]
+  647 |   size_t input_size = exe_length;
+      |          ^~~~~~~~~~
+D:/GAME RECOMP/rexglue-sdk/src/system/xex_module.cpp:892:8: warning: unused variable 'sec_header' [-Wunused-variable]
+  892 |   auto sec_header = xex_security_info();
+      |        ^~~~~~~~~~
+D:/GAME RECOMP/rexglue-sdk/src/system/xex_module.cpp:905:12: warning: unused variable 'data' [-Wunused-variable]
+  905 |   uint8_t* data = memory()->TranslateVirtual(base_address_);
+      |            ^~~~
+6 warnings generated.
+[80/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/xam/xam_msg.cpp.obj
+[81/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/xam/xam_notify.cpp.obj
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_notify.cpp:98:30: warning: unused parameter 'delay_ms' [-Wunused-parameter]
+   98 | u32 XNotifyDelayUI_entry(u32 delay_ms) {
+      |                              ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_notify.cpp:103:34: warning: unused parameter 'position' [-Wunused-parameter]
+  103 | void XNotifyPositionUI_entry(u32 position) {
+      |                                  ^
+2 warnings generated.
+[82/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/xam/xam_locale.cpp.obj
+[83/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/xam/xam_content.cpp.obj
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_content.cpp:49:8: warning: unused variable 'content_data' [-Wunused-variable]
+   49 |   auto content_data = content_data_ptr.as<XCONTENT_DATA*>();
+      |        ^~~~~~~~~~~~
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_content.cpp:47:33: warning: unused parameter 'user_index' [-Wunused-parameter]
+   47 | u32 XamContentResolve_entry(u32 user_index, mapped_void content_data_ptr, mapped_void buffer_ptr,
+      |                                 ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_content.cpp:47:87: warning: unused parameter 'buffer_ptr' [-Wunused-parameter]
+   47 | u32 XamContentResolve_entry(u32 user_index, mapped_void content_data_ptr, mapped_void buffer_ptr,
+      |                                                                                       ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_content.cpp:48:33: warning: unused parameter 'buffer_size' [-Wunused-parameter]
+   48 |                             u32 buffer_size, u32 unk1, u32 unk2, u32 unk3) {
+      |                                 ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_content.cpp:48:50: warning: unused parameter 'unk1' [-Wunused-parameter]
+   48 |                             u32 buffer_size, u32 unk1, u32 unk2, u32 unk3) {
+      |                                                  ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_content.cpp:48:60: warning: unused parameter 'unk2' [-Wunused-parameter]
+   48 |                             u32 buffer_size, u32 unk1, u32 unk2, u32 unk3) {
+      |                                                            ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_content.cpp:48:70: warning: unused parameter 'unk3' [-Wunused-parameter]
+   48 |                             u32 buffer_size, u32 unk1, u32 unk2, u32 unk3) {
+      |                                                                      ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_content.cpp:61:42: warning: unused parameter 'user_index' [-Wunused-parameter]
+   61 | u32 XamContentCreateEnumerator_entry(u32 user_index, u32 device_id, u32 content_type,
+      |                                          ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_content.cpp:62:42: warning: unused parameter 'content_flags' [-Wunused-parameter]
+   62 |                                      u32 content_flags, u32 items_per_enumerate,
+      |                                          ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_content.cpp:118:28: warning: unused parameter 'user_index' [-Wunused-parameter]
+  118 | u32 xeXamContentCreate(u32 user_index, mapped_string root_name, mapped_void content_data_ptr,
+      |                            ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_content.cpp:120:57: warning: unused parameter 'cache_size' [-Wunused-parameter]
+  120 |                        mapped_u32 license_mask_ptr, u32 cache_size, u64 content_size,
+      |                                                         ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_content.cpp:120:73: warning: unused parameter 'content_size' [-Wunused-parameter]
+  120 |                        mapped_u32 license_mask_ptr, u32 cache_size, u64 content_size,
+      |                                                                         ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_content.cpp:264:34: warning: unused parameter 'user_index' [-Wunused-parameter]
+  264 | u32 XamContentOpenFile_entry(u32 user_index, mapped_string root_name, mapped_string path, u32 flags,
+      |                                  ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_content.cpp:264:60: warning: unused parameter 'root_name' [-Wunused-parameter]
+  264 | u32 XamContentOpenFile_entry(u32 user_index, mapped_string root_name, mapped_string path, u32 flags,
+      |                                                            ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_content.cpp:264:85: warning: unused parameter 'path' [-Wunused-parameter]
+  264 | u32 XamContentOpenFile_entry(u32 user_index, mapped_string root_name, mapped_string path, u32 flags,
+      |                                                                                     ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_content.cpp:264:95: warning: unused parameter 'flags' [-Wunused-parameter]
+  264 | u32 XamContentOpenFile_entry(u32 user_index, mapped_string root_name, mapped_string path, u32 flags,
+      |                                                                                               ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_content.cpp:265:41: warning: unused parameter 'disposition_ptr' [-Wunused-parameter]
+  265 |                              mapped_u32 disposition_ptr, mapped_u32 license_mask_ptr,
+      |                                         ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_content.cpp:265:69: warning: unused parameter 'license_mask_ptr' [-Wunused-parameter]
+  265 |                              mapped_u32 disposition_ptr, mapped_u32 license_mask_ptr,
+      |                                                                     ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_content.cpp:266:42: warning: unused parameter 'overlapped_ptr' [-Wunused-parameter]
+  266 |                              mapped_void overlapped_ptr) {
+      |                                          ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_content.cpp:271:41: warning: unused parameter 'root_name' [-Wunused-parameter]
+  271 | u32 XamContentFlush_entry(mapped_string root_name, mapped_void overlapped_ptr) {
+      |                                         ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_content.cpp:293:36: warning: unused parameter 'user_index' [-Wunused-parameter]
+  293 | u32 XamContentGetCreator_entry(u32 user_index, mapped_void content_data_ptr,
+      |                                    ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_content.cpp:328:38: warning: unused parameter 'user_index' [-Wunused-parameter]
+  328 | u32 XamContentGetThumbnail_entry(u32 user_index, mapped_void content_data_ptr,
+      |                                      ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_content.cpp:365:38: warning: unused parameter 'user_index' [-Wunused-parameter]
+  365 | u32 XamContentSetThumbnail_entry(u32 user_index, mapped_void content_data_ptr,
+      |                                      ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_content.cpp:384:32: warning: unused parameter 'user_index' [-Wunused-parameter]
+  384 | u32 XamContentDelete_entry(u32 user_index, mapped_void content_data_ptr,
+      |                                ^
+24 warnings generated.
+[84/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/xam/xam_video.cpp.obj
+[85/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/xam/xam_nui.cpp.obj
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_nui.cpp:39:42: warning: unused parameter 'unk1' [-Wunused-parameter]
+   39 | u32 XamShowNuiTroubleshooterUI_entry(u32 unk1, u32 unk2, u32 unk3) {
+      |                                          ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_nui.cpp:39:52: warning: unused parameter 'unk2' [-Wunused-parameter]
+   39 | u32 XamShowNuiTroubleshooterUI_entry(u32 unk1, u32 unk2, u32 unk3) {
+      |                                                    ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_nui.cpp:39:62: warning: unused parameter 'unk3' [-Wunused-parameter]
+   39 | u32 XamShowNuiTroubleshooterUI_entry(u32 unk1, u32 unk2, u32 unk3) {
+      |                                                              ^
+3 warnings generated.
+[86/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/xam/xam_party.cpp.obj
+[87/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/xam/xam_task.cpp.obj
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_task.cpp:87:33: warning: unused parameter 'r3' [-Wunused-parameter]
+   87 | u32 XamTaskShouldExit_entry(u32 r3) {
+      |                                 ^
+1 warning generated.
+[88/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/xam/xam_voice.cpp.obj
+[89/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/xam/apps/xam_app.cpp.obj
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/apps/xam_app.cpp:97:12: warning: unused variable 'adr' [-Wunused-variable]
+   97 |       auto adr = *unk;
+      |            ^~~
+1 warning generated.
+[90/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/xam/apps/xlivebase_app.cpp.obj
+[91/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/xam/apps/xgi_app.cpp.obj
+[92/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/xam/xam_input.cpp.obj
+[93/130] Building CXX object rexglue-sdk/src/rexglue/CMakeFiles/rexglue.dir/commands/init_command.cpp.obj
+In file included from D:/GAME RECOMP/rexglue-sdk/src/rexglue/commands/init_command.cpp:27:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/runtime.h:24:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/filesystem/vfs.h:19:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/filesystem/device.h:17:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/filesystem/entry.h:19:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/filesystem.h:22:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/string.h:20:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/memory.h:27:
+D:/GAME RECOMP/rexglue-sdk/include\rex/system/xmemory.h:256:48: warning: unused parameter 'host_page_number' [-Wunused-parameter]
+  256 |   virtual bool IsHostPageWriteWatched(uint32_t host_page_number) const { return false; }
+      |                                                ^
+D:/GAME RECOMP/rexglue-sdk/src/rexglue/commands/init_command.cpp:390:3: warning: missing field 'graphics' initializer [-Wmissing-designated-field-initializers]
+  390 |   });
+      |   ^
+2 warnings generated.
+[94/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/xam/apps/xmp_app.cpp.obj
+[95/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/xbdm/xbdm_module.cpp.obj
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xbdm/xbdm_module.cpp:25:33: warning: unused parameter 'emulator' [-Wunused-parameter]
+   25 | XbdmModule::XbdmModule(Runtime* emulator, KernelState* kernel_state)
+      |                                 ^
+1 warning generated.
+[96/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/xboxkrnl/xboxkrnl_error.cpp.obj
+[97/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/xboxkrnl/xboxkrnl_debug.cpp.obj
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xboxkrnl/xboxkrnl_debug.cpp:66:30: warning: comparison of integers of different signs: 'unsigned int' and 'int' [-Wsign-compare]
+   66 |   if (thread_info->thread_id == -1) {
+      |       ~~~~~~~~~~~~~~~~~~~~~~ ^  ~~
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xboxkrnl/xboxkrnl_debug.cpp:119:8: warning: unused variable 'vftable_ptr' [-Wunused-variable]
+  119 |   auto vftable_ptr = *reinterpret_cast<rex::be<uint32_t>*>(thrown);
+      |        ^~~~~~~~~~~
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xboxkrnl/xboxkrnl_debug.cpp:123:8: warning: unused variable 'catchable_types' [-Wunused-variable]
+  123 |   auto catchable_types = REX_KERNEL_MEMORY()->TranslateVirtual<x_s__CatchableTypeArray*>(
+      |        ^~~~~~~~~~~~~~~
+3 warnings generated.
+[98/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/xboxkrnl/xboxkrnl_hal.cpp.obj
+[99/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/xam/xam_info.cpp.obj
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_info.cpp:36:33: warning: unused parameter 'unk' [-Wunused-parameter]
+   36 | u32 XamFeatureEnabled_entry(u32 unk) {
+      |                                 ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_info.cpp:76:36: warning: unused parameter 'unk' [-Wunused-parameter]
+   76 | void XamFormatDateString_entry(u32 unk, u64 filetime, mapped_void output_buffer, u32 output_count) {
+      |                                    ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_info.cpp:90:36: warning: unused parameter 'unk' [-Wunused-parameter]
+   90 | void XamFormatTimeString_entry(u32 unk, u64 filetime, mapped_void output_buffer, u32 output_count) {
+      |                                    ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_info.cpp:276:16: warning: object backing the pointer 'path' will be destroyed at the end of the full-expression [-Wdangling-assignment-gsl]
+  276 |         path = rex::string::utf8_join_guest_paths(
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  277 |             rex::string::utf8_find_base_guest_path(
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  278 |                 REX_KERNEL_STATE()->GetExecutableModule()->path()),
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  279 |             path);
+      |             ~~~~~
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_info.cpp:313:44: warning: unused parameter 'name' [-Wunused-parameter]
+  313 | u32 XamQueryLiveHiveW_entry(mapped_wstring name, mapped_void out_buf, u32 out_size,
+      |                                            ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_info.cpp:313:62: warning: unused parameter 'out_buf' [-Wunused-parameter]
+  313 | u32 XamQueryLiveHiveW_entry(mapped_wstring name, mapped_void out_buf, u32 out_size,
+      |                                                              ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_info.cpp:313:75: warning: unused parameter 'out_size' [-Wunused-parameter]
+  313 | u32 XamQueryLiveHiveW_entry(mapped_wstring name, mapped_void out_buf, u32 out_size,
+      |                                                                           ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_info.cpp:314:33: warning: unused parameter 'type' [-Wunused-parameter]
+  314 |                             u32 type /* guess */) {
+      |                                 ^
+8 warnings generated.
+[100/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/xam/xam_user.cpp.obj
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_user.cpp:549:24: warning: unused variable 'o' [-Wunused-variable]
+  549 |     for (size_t i = 0, o = current_item_; i < count; ++i, ++current_item_) {
+      |                        ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_user.cpp:542:12: warning: unused variable 'size' [-Wunused-variable]
+  542 |     size_t size = count * item_size();
+      |            ^~~~
+2 warnings generated.
+[101/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/xboxkrnl/xboxkrnl_io_info.cpp.obj
+[102/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/xam/xam_net.cpp.obj
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_net.cpp:368:61: warning: comparison of integers of different signs: 'u32' (aka 'unsigned int') and 'int' [-Wsign-compare]
+  368 |                                                     timeout != -1 ? &timeout_wait : nullptr);
+      |                                                     ~~~~~~~ ^  ~~
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_net.cpp:574:12: warning: comparison of integers of different signs: 'uint32_t' (aka 'unsigned int') and 'int' [-Wsign-compare]
+  574 |   if (addr == -1 && !addr_ptr.value().length()) {
+      |       ~~~~ ^  ~~
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_net.cpp:760:25: warning: comparison of integers of different signs: 'X_HANDLE' (aka 'unsigned int') and 'int' [-Wsign-compare]
+  760 |       if (socket_handle == -1) {
+      |           ~~~~~~~~~~~~~ ^  ~~
+3 warnings generated.
+[103/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/xboxkrnl/xboxkrnl_hid.cpp.obj
+[104/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/xbdm/xbdm_misc.cpp.obj
+[105/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/xboxkrnl/xboxkrnl_memory.cpp.obj
+[106/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/xam/xam_module.cpp.obj
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_module.cpp:32:31: warning: unused parameter 'emulator' [-Wunused-parameter]
+   32 | XamModule::XamModule(Runtime* emulator, KernelState* kernel_state)
+      |                               ^
+1 warning generated.
+[107/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/xboxkrnl/xboxkrnl_misc.cpp.obj
+[108/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/xboxkrnl/xboxkrnl_ob.cpp.obj
+[109/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/xam/xam_ui.cpp.obj
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_ui.cpp:228:24: warning: unused parameter 'io' [-Wunused-parameter]
+  228 |   void OnDraw(ImGuiIO& io) override {
+      |                        ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_ui.cpp:368:24: warning: unused parameter 'io' [-Wunused-parameter]
+  368 |   void OnDraw(ImGuiIO& io) override {
+      |                        ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_ui.cpp:545:30: warning: unused parameter 'r3' [-Wunused-parameter]
+  545 | u32 XamShowPartyUI_entry(u32 r3, u32 r4) {
+      |                              ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_ui.cpp:545:38: warning: unused parameter 'r4' [-Wunused-parameter]
+  545 | u32 XamShowPartyUI_entry(u32 r3, u32 r4) {
+      |                                      ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_ui.cpp:549:42: warning: unused parameter 'r3' [-Wunused-parameter]
+  549 | u32 XamShowCommunitySessionsUI_entry(u32 r3, u32 r4) {
+      |                                          ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_ui.cpp:549:50: warning: unused parameter 'r4' [-Wunused-parameter]
+  549 | u32 XamShowCommunitySessionsUI_entry(u32 r3, u32 r4) {
+      |                                                  ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_ui.cpp:263:12: warning: private field 'default_button_' is not used [-Wunused-private-field]
+  263 |   uint32_t default_button_ = 0;
+      |            ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xam/xam_ui.cpp:414:10: warning: private field 'max_length_' is not used [-Wunused-private-field]
+  414 |   size_t max_length_ = 0;
+      |          ^
+8 warnings generated.
+[110/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/xboxkrnl/xboxkrnl_modules.cpp.obj
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xboxkrnl/xboxkrnl_modules.cpp:86:55: warning: unused parameter 'module_flags' [-Wunused-parameter]
+   86 | u32 XexLoadImage_entry(mapped_string module_name, u32 module_flags, u32 min_version,
+      |                                                       ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xboxkrnl/xboxkrnl_modules.cpp:86:73: warning: unused parameter 'min_version' [-Wunused-parameter]
+   86 | u32 XexLoadImage_entry(mapped_string module_name, u32 module_flags, u32 min_version,
+      |                                                                         ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xboxkrnl/xboxkrnl_modules.cpp:219:63: warning: unused parameter 'headers' [-Wunused-parameter]
+  219 | u32 XexLoadImageHeaders_entry(mapped_string path, mapped_void headers) {
+      |                                                               ^
+3 warnings generated.
+[111/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/xboxkrnl/xboxkrnl_xconfig.cpp.obj
+[112/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/xboxkrnl/xboxkrnl_strings.cpp.obj
+[113/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/xboxkrnl/xboxkrnl_io.cpp.obj
+[114/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/xboxkrnl/xboxkrnl_audio_xma.cpp.obj
+[115/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/crt/memory.cpp.obj
+[116/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/xboxkrnl/xboxkrnl_rtl.cpp.obj
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xboxkrnl/xboxkrnl_rtl.cpp:114:12: warning: variable 'len1' set but not used [-Wunused-but-set-variable]
+  114 |   uint32_t len1 = string_1_len;
+      |            ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xboxkrnl/xboxkrnl_rtl.cpp:115:12: warning: variable 'len2' set but not used [-Wunused-but-set-variable]
+  115 |   uint32_t len2 = string_2_len;
+      |            ^
+2 warnings generated.
+[117/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/xboxkrnl/xboxkrnl_audio.cpp.obj
+[118/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/crt/heap.cpp.obj
+D:/GAME RECOMP/rexglue-sdk/src/kernel/crt/heap.cpp:334:31: warning: unused parameter 'hHeap' [-Wunused-parameter]
+  334 | u32 RtlAllocateHeap_entry(u32 hHeap, u32 dwFlags, u32 dwBytes) {
+      |                               ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/crt/heap.cpp:338:27: warning: unused parameter 'hHeap' [-Wunused-parameter]
+  338 | u32 RtlFreeHeap_entry(u32 hHeap, u32 dwFlags, u32 ptr) {
+      |                           ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/crt/heap.cpp:338:38: warning: unused parameter 'dwFlags' [-Wunused-parameter]
+  338 | u32 RtlFreeHeap_entry(u32 hHeap, u32 dwFlags, u32 ptr) {
+      |                                      ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/crt/heap.cpp:343:27: warning: unused parameter 'hHeap' [-Wunused-parameter]
+  343 | u32 RtlSizeHeap_entry(u32 hHeap, u32 dwFlags, u32 ptr) {
+      |                           ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/crt/heap.cpp:343:38: warning: unused parameter 'dwFlags' [-Wunused-parameter]
+  343 | u32 RtlSizeHeap_entry(u32 hHeap, u32 dwFlags, u32 ptr) {
+      |                                      ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/crt/heap.cpp:347:33: warning: unused parameter 'hHeap' [-Wunused-parameter]
+  347 | u32 RtlReAllocateHeap_entry(u32 hHeap, u32 dwFlags, u32 ptr, u32 dwBytes) {
+      |                                 ^
+6 warnings generated.
+[119/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/crt/threading.cpp.obj
+[120/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/crt/string.cpp.obj
+[121/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/xboxkrnl/xboxkrnl_crypt.cpp.obj
+[122/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/xboxkrnl/xboxkrnl_video.cpp.obj
+[123/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/xam/xam_misc.cpp.obj
+[124/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/crt/file.cpp.obj
+D:/GAME RECOMP/rexglue-sdk/src/kernel/crt/file.cpp:63:74: warning: unused parameter 'dwShareMode' [-Wunused-parameter]
+   63 | u32 CreateFileA_entry(mapped_string lpFileName, u32 dwDesiredAccess, u32 dwShareMode,
+      |                                                                          ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/crt/file.cpp:64:35: warning: unused parameter 'lpSecurityAttributes' [-Wunused-parameter]
+   64 |                       mapped_void lpSecurityAttributes, u32 dwCreationDisposition,
+      |                                   ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/crt/file.cpp:65:27: warning: unused parameter 'dwFlagsAndAttributes' [-Wunused-parameter]
+   65 |                       u32 dwFlagsAndAttributes, u32 hTemplateFile) {
+      |                           ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/crt/file.cpp:65:53: warning: unused parameter 'hTemplateFile' [-Wunused-parameter]
+   65 |                       u32 dwFlagsAndAttributes, u32 hTemplateFile) {
+      |                                                     ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/crt/file.cpp:322:66: warning: unused parameter 'lpSecurityAttributes' [-Wunused-parameter]
+  322 | u32 CreateDirectoryA_entry(mapped_string lpPathName, mapped_void lpSecurityAttributes) {
+      |                                                                  ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/crt/file.cpp:371:36: warning: unused parameter 'fInfoLevelId' [-Wunused-parameter]
+  371 | u32 GetFileAttributesExA_entry(u32 fInfoLevelId, mapped_string lpFileName,
+      |                                    ^
+6 warnings generated.
+[125/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/xboxkrnl/xboxkrnl_module.cpp.obj
+[126/130] Building CXX object rexglue-sdk/src/system/CMakeFiles/rexruntime.dir/D_/GAME_RECOMP/rexglue-sdk/src/kernel/xboxkrnl/xboxkrnl_threading.cpp.obj
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xboxkrnl/xboxkrnl_threading.cpp:1428:40: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+ 1428 |   alignas(8) X_SLIST_HEADER old_hdr = {0};
+      |                                        ^
+      |                                        {}
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xboxkrnl/xboxkrnl_threading.cpp:1428:41: warning: missing field 'depth' initializer [-Wmissing-field-initializers]
+ 1428 |   alignas(8) X_SLIST_HEADER old_hdr = {0};
+      |                                         ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xboxkrnl/xboxkrnl_threading.cpp:1429:40: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+ 1429 |   alignas(8) X_SLIST_HEADER new_hdr = {0};
+      |                                        ^
+      |                                        {}
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xboxkrnl/xboxkrnl_threading.cpp:1429:41: warning: missing field 'depth' initializer [-Wmissing-field-initializers]
+ 1429 |   alignas(8) X_SLIST_HEADER new_hdr = {0};
+      |                                         ^
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xboxkrnl/xboxkrnl_threading.cpp:1451:40: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+ 1451 |   alignas(8) X_SLIST_HEADER new_hdr = {0};
+      |                                        ^
+      |                                        {}
+D:/GAME RECOMP/rexglue-sdk/src/kernel/xboxkrnl/xboxkrnl_threading.cpp:1451:41: warning: missing field 'depth' initializer [-Wmissing-field-initializers]
+ 1451 |   alignas(8) X_SLIST_HEADER new_hdr = {0};
+      |                                         ^
+6 warnings generated.
+[127/130] Linking CXX shared library "D:\GAME RECOMP\rexglue-sdk\out\win-amd64\rexruntime.dll"
+[128/130] Linking CXX static library "D:\GAME RECOMP\rexglue-sdk\out\win-amd64\rexcodegen.lib"
+[129/130] Linking CXX executable "D:\GAME RECOMP\rexglue-sdk\out\win-amd64\rexglue.exe"
+CLI_EXIT=0

@@ -1,0 +1,281 @@
+[0/2] Re-checking globbed directories...
+[1/2] Re-running CMake...
+CMake Warning at D:/GAME RECOMP/rexglue-sdk/cmake/rex_version.cmake:33 (message):
+  rex_compute_version: no v* tag reachable from HEAD.  Falling back to
+  0.9.0.0-dev.unknown.  If this is a CI build, ensure tags are fetched
+  (fetch-depth: 0 + fetch-tags: true).  If this is a fork, push tags with:
+  git push <fork-remote> --tags
+Call Stack (most recent call first):
+  D:/GAME RECOMP/rexglue-sdk/cmake/rex_version.cmake:146 (rex_compute_version)
+  D:/GAME RECOMP/rexglue-sdk/CMakeLists.txt:140 (rex_resolve_version)
+
+
+-- xxHash build type: Release
+-- Architecture: AMD64
+-- {fmt} version: 12.1.0
+-- Build type: Release
+-- Build spdlog: 1.17.0
+-- Build type: Release
+-- Generating install
+-- Checking for module 'libusb-1.0>=1.0.16'
+--   Package 'libusb-1.0' not found
+-- Could NOT find LibUSB (missing: LibUSB_LIBRARY LibUSB_INCLUDE_PATH) (found version "LibUSB_VERSION-NOTFOUND")
+-- 
+-- SDL3 was configured with the following options:
+-- 
+-- Platform: Windows-6.2.9200
+-- 64-bit:   TRUE
+-- Compiler: C:/Program Files/LLVM/bin/clang.exe
+-- Revision: SDL-3.5.0-HEAD-HASH-NOTFOUND
+-- Vendor:   
+-- 
+-- Subsystems:
+--   Audio:    ON
+--   Video:    ON
+--   GPU:      ON
+--   Render:   OFF
+--   Camera:   OFF
+--   Joystick: ON
+--   Haptic:   OFF
+--   Hidapi:   ON
+--   Power:    OFF
+--   Sensor:   OFF
+--   Dialog:   OFF
+--   Tray:     OFF
+-- 
+-- Options:
+--   SDL_ALSA                    (Wanted: OFF): OFF
+--   SDL_ALSA_SHARED             (Wanted: OFF): OFF
+--   SDL_ALTIVEC                 (Wanted: OFF): OFF
+--   SDL_ARMNEON                 (Wanted: OFF): OFF
+--   SDL_ASAN                    (Wanted: OFF): OFF
+--   SDL_ASSEMBLY                (Wanted: ON): ON
+--   SDL_ASSERTIONS              (Wanted: auto): auto
+--   SDL_AVX                     (Wanted: ON): ON
+--   SDL_AVX2                    (Wanted: ON): ON
+--   SDL_AVX512F                 (Wanted: ON): ON
+--   SDL_BACKGROUNDING_SIGNAL    (Wanted: OFF): OFF
+--   SDL_CCACHE                  (Wanted: OFF): OFF
+--   SDL_CLANG_TIDY              (Wanted: OFF): OFF
+--   SDL_CLOCK_GETTIME           (Wanted: OFF): OFF
+--   SDL_COCOA                   (Wanted: OFF): OFF
+--   SDL_DBUS                    (Wanted: OFF): OFF
+--   SDL_DEPS_SHARED             (Wanted: ON): OFF
+--   SDL_DIRECTX                 (Wanted: ON): ON
+--   SDL_DISKAUDIO               (Wanted: OFF): OFF
+--   SDL_DLOPEN_NOTES            (Wanted: OFF): OFF
+--   SDL_DUMMYAUDIO              (Wanted: OFF): OFF
+--   SDL_DUMMYCAMERA             (Wanted: OFF): OFF
+--   SDL_DUMMYVIDEO              (Wanted: OFF): OFF
+--   SDL_EXAMPLES                (Wanted: OFF): OFF
+--   SDL_EXAMPLES_LINK_SHARED    (Wanted: OFF): OFF
+--   SDL_FOREGROUNDING_SIGNAL    (Wanted: OFF): OFF
+--   SDL_FRIBIDI                 (Wanted: OFF): OFF
+--   SDL_FRIBIDI_SHARED          (Wanted: OFF): OFF
+--   SDL_GCC_ATOMICS             (Wanted: ON): ON
+--   SDL_GPU_OPENXR              (Wanted: ON): ON
+--   SDL_HIDAPI                  (Wanted: ON): ON
+--   SDL_HIDAPI_JOYSTICK         (Wanted: ON): ON
+--   SDL_HIDAPI_LIBUSB           (Wanted: ON): OFF
+--   SDL_HIDAPI_LIBUSB_SHARED    (Wanted: ON): OFF
+--   SDL_IBUS                    (Wanted: OFF): OFF
+--   SDL_INSTALL                 (Wanted: ON): OFF
+--   SDL_INSTALL_TESTS           (Wanted: OFF): OFF
+--   SDL_JACK                    (Wanted: OFF): OFF
+--   SDL_JACK_SHARED             (Wanted: OFF): OFF
+--   SDL_KMSDRM                  (Wanted: OFF): OFF
+--   SDL_KMSDRM_SHARED           (Wanted: OFF): OFF
+--   SDL_LASX                    (Wanted: OFF): OFF
+--   SDL_LIBC                    (Wanted: ON): ON
+--   SDL_LIBICONV                (Wanted: OFF): OFF
+--   SDL_LIBTHAI                 (Wanted: OFF): OFF
+--   SDL_LIBTHAI_SHARED          (Wanted: OFF): OFF
+--   SDL_LIBUDEV                 (Wanted: ON): OFF
+--   SDL_LIBURING                (Wanted: OFF): OFF
+--   SDL_LSX                     (Wanted: OFF): OFF
+--   SDL_METAL                   (Wanted: OFF): OFF
+--   SDL_MMX                     (Wanted: ON): ON
+--   SDL_OFFSCREEN               (Wanted: ON): ON
+--   SDL_OPENGL                  (Wanted: OFF): OFF
+--   SDL_OPENGLES                (Wanted: OFF): OFF
+--   SDL_OPENVR                  (Wanted: OFF): OFF
+--   SDL_OSS                     (Wanted: OFF): OFF
+--   SDL_PIPEWIRE                (Wanted: OFF): OFF
+--   SDL_PIPEWIRE_SHARED         (Wanted: OFF): OFF
+--   SDL_PTHREADS                (Wanted: OFF): OFF
+--   SDL_PTHREADS_SEM            (Wanted: OFF): OFF
+--   SDL_PULSEAUDIO              (Wanted: OFF): OFF
+--   SDL_PULSEAUDIO_SHARED       (Wanted: OFF): OFF
+--   SDL_RENDER_D3D              (Wanted: OFF): OFF
+--   SDL_RENDER_D3D11            (Wanted: OFF): OFF
+--   SDL_RENDER_D3D12            (Wanted: OFF): OFF
+--   SDL_RENDER_GPU              (Wanted: OFF): OFF
+--   SDL_RENDER_METAL            (Wanted: OFF): OFF
+--   SDL_RENDER_VULKAN           (Wanted: OFF): OFF
+--   SDL_ROCKCHIP                (Wanted: OFF): OFF
+--   SDL_RPATH                   (Wanted: OFF): OFF
+--   SDL_RPI                     (Wanted: OFF): OFF
+--   SDL_SNDIO                   (Wanted: OFF): OFF
+--   SDL_SNDIO_SHARED            (Wanted: OFF): OFF
+--   SDL_SSE                     (Wanted: ON): ON
+--   SDL_SSE2                    (Wanted: ON): ON
+--   SDL_SSE3                    (Wanted: ON): ON
+--   SDL_SSE4_1                  (Wanted: ON): ON
+--   SDL_SSE4_2                  (Wanted: ON): ON
+--   SDL_SYSTEM_ICONV            (Wanted: OFF): OFF
+--   SDL_TESTS                   (Wanted: OFF): OFF
+--   SDL_TESTS_LINK_SHARED       (Wanted: OFF): OFF
+--   SDL_UNINSTALL               (Wanted: OFF): OFF
+--   SDL_VIRTUAL_JOYSTICK        (Wanted: ON): ON
+--   SDL_VIVANTE                 (Wanted: OFF): OFF
+--   SDL_VULKAN                  (Wanted: OFF): OFF
+--   SDL_WASAPI                  (Wanted: ON): ON
+--   SDL_WAYLAND                 (Wanted: OFF): OFF
+--   SDL_WAYLAND_LIBDECOR        (Wanted: OFF): OFF
+--   SDL_WAYLAND_LIBDECOR_SHARED (Wanted: OFF): OFF
+--   SDL_WAYLAND_SHARED          (Wanted: OFF): OFF
+--   SDL_X11                     (Wanted: OFF): OFF
+--   SDL_X11_SHARED              (Wanted: OFF): OFF
+--   SDL_X11_XCURSOR             (Wanted: OFF): OFF
+--   SDL_X11_XDBE                (Wanted: OFF): OFF
+--   SDL_X11_XFIXES              (Wanted: OFF): OFF
+--   SDL_X11_XINPUT              (Wanted: OFF): OFF
+--   SDL_X11_XRANDR              (Wanted: OFF): OFF
+--   SDL_X11_XSCRNSAVER          (Wanted: OFF): OFF
+--   SDL_X11_XSHAPE              (Wanted: OFF): OFF
+--   SDL_X11_XSYNC               (Wanted: OFF): OFF
+--   SDL_X11_XTEST               (Wanted: OFF): OFF
+--   SDL_XINPUT                  (Wanted: ON): ON
+-- 
+--  Build Shared Library: OFF
+--  Build Static Library: ON
+-- 
+-- Enabled backends:
+--   Video drivers: offscreen windows
+--   Render drivers: 
+--   GPU drivers: d3d12 openxr
+--   Audio drivers: dsound wasapi
+--   Joystick drivers: dinput gameinput hidapi rawinput virtual wgi xinput
+--   Camera drivers: dummy
+-- 
+-- ===========================================
+-- ReXGlue Configuration Summary:
+--   Version: 0.9.0.0-dev.unknown
+--   Platform: win-amd64
+--   Compiler: Clang 22.1.8
+--   Configurations: 
+--   Output Dir: D:/GAME RECOMP/rexglue-sdk/out/win-amd64
+--   C++ Standard: C++23
+--   Graphics: D3D12=ON Vulkan=OFF
+--   FidelityFX: OFF
+--   Tracy: ON
+--   Perf Counters: ON
+-- ===========================================
+-- Using ReXGlue SDK from source tree: D:/GAME RECOMP/rexglue-sdk
+-- Configuring done (0.7s)
+-- Generating done (0.3s)
+-- Build files have been written to: D:/Burnout Revenge Recomp/out/build/win-amd64-release
+[0/4] Re-checking globbed directories...
+[1/101] Building CXX object rexglue-sdk/src/ui/CMakeFiles/rexui.dir/overlay/debug_overlay.cpp.obj
+[2/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_init.cpp.obj
+[3/101] Linking CXX shared library "D:\GAME RECOMP\rexglue-sdk\out\win-amd64\rexruntime.dll"
+[4/101] Building CXX object CMakeFiles/burnoutrevenge.dir/src/main.cpp.obj
+[5/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82130000.0.cpp.obj
+[6/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82120000.0.cpp.obj
+[7/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82110000.0.cpp.obj
+[8/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.820E0000.0.cpp.obj
+[9/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82090000.0.cpp.obj
+[10/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.820C0000.0.cpp.obj
+[11/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82100000.0.cpp.obj
+[12/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.820A0000.0.cpp.obj
+[13/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.820F0000.0.cpp.obj
+[14/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.820D0000.0.cpp.obj
+[15/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82140000.0.cpp.obj
+[16/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82160000.0.cpp.obj
+[17/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82150000.0.cpp.obj
+[18/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.820B0000.0.cpp.obj
+[19/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_register.cpp.obj
+[20/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82190000.0.cpp.obj
+[21/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82170000.0.cpp.obj
+[22/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82180000.0.cpp.obj
+[23/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.821E0000.0.cpp.obj
+[24/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.821D0000.0.cpp.obj
+[25/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.821A0000.0.cpp.obj
+[26/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82200000.0.cpp.obj
+[27/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.821C0000.0.cpp.obj
+[28/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82210000.0.cpp.obj
+[29/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.821F0000.0.cpp.obj
+[30/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82220000.0.cpp.obj
+[31/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82230000.0.cpp.obj
+[32/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.821B0000.0.cpp.obj
+[33/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82250000.0.cpp.obj
+[34/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82260000.0.cpp.obj
+[35/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82240000.0.cpp.obj
+[36/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82270000.0.cpp.obj
+[37/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82280000.0.cpp.obj
+[38/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82290000.0.cpp.obj
+[39/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.822A0000.0.cpp.obj
+[40/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.822B0000.0.cpp.obj
+[41/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.822C0000.0.cpp.obj
+[42/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.822E0000.0.cpp.obj
+[43/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.822F0000.0.cpp.obj
+[44/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82310000.0.cpp.obj
+[45/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82320000.0.cpp.obj
+[46/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82330000.0.cpp.obj
+[47/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82300000.0.cpp.obj
+[48/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82350000.0.cpp.obj
+[49/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.822D0000.0.cpp.obj
+[50/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82340000.0.cpp.obj
+[51/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82360000.0.cpp.obj
+[52/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82370000.0.cpp.obj
+[53/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82390000.0.cpp.obj
+[54/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82380000.0.cpp.obj
+[55/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.823A0000.0.cpp.obj
+[56/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.823B0000.0.cpp.obj
+[57/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.823C0000.0.cpp.obj
+[58/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.823E0000.0.cpp.obj
+[59/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.823D0000.0.cpp.obj
+[60/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.823F0000.0.cpp.obj
+[61/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82400000.0.cpp.obj
+[62/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82410000.0.cpp.obj
+[63/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82420000.0.cpp.obj
+[64/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82440000.0.cpp.obj
+[65/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82430000.0.cpp.obj
+[66/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82450000.0.cpp.obj
+[67/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82490000.0.cpp.obj
+[68/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82470000.0.cpp.obj
+[69/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82480000.0.cpp.obj
+[70/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82460000.0.cpp.obj
+[71/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.824B0000.0.cpp.obj
+[72/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.824A0000.0.cpp.obj
+[73/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.824D0000.0.cpp.obj
+[74/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.824C0000.0.cpp.obj
+[75/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.824F0000.0.cpp.obj
+[76/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.824E0000.0.cpp.obj
+[77/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82500000.0.cpp.obj
+[78/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82510000.0.cpp.obj
+[79/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82520000.0.cpp.obj
+[80/101] Linking CXX shared library "D:\GAME RECOMP\rexglue-sdk\out\win-amd64\rexgpu-xenos.dll"
+[81/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82530000.0.cpp.obj
+[82/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82590000.1.cpp.obj
+[83/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82550000.0.cpp.obj
+[84/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82540000.0.cpp.obj
+[85/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82560000.0.cpp.obj
+[86/101] Building CXX object CMakeFiles/burnoutrevenge.dir/D_/GAME_RECOMP/rexglue-sdk/src/ui/rex_app.cpp.obj
+[87/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82580000.0.cpp.obj
+[88/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82570000.0.cpp.obj
+[89/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.825A0000.0.cpp.obj
+[90/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.825D0000.0.cpp.obj
+[91/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82590000.0.cpp.obj
+[92/101] Building CXX object rexglue-sdk/src/rexglue/CMakeFiles/rexglue.dir/main.cpp.obj
+[93/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.825B0000.0.cpp.obj
+[94/101] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.825C0000.0.cpp.obj
+[95/101] Linking CXX executable burnoutrevenge.exe
+[96/101] Building CXX object rexglue-sdk/src/rexglue/CMakeFiles/rexglue.dir/commands/codegen_command.cpp.obj
+[97/101] Building CXX object rexglue-sdk/src/rexglue/CMakeFiles/rexglue.dir/commands/init_command.cpp.obj
+D:/GAME RECOMP/rexglue-sdk/src/rexglue/commands/init_command.cpp:390:3: warning: missing field 'graphics' initializer [-Wmissing-designated-field-initializers]
+  390 |   });
+      |   ^
+1 warning generated.
+[98/101] Linking CXX executable "D:\GAME RECOMP\rexglue-sdk\out\win-amd64\rexglue.exe"
+EXIT_CODE=0

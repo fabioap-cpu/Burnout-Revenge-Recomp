@@ -1,0 +1,12 @@
+# Generated recompiled code (derived from the game's copyrighted binary).
+# Regenerate locally with `rexglue codegen` against your own legally-owned
+# copy of the game - see docs/METHODOLOGY_XBOX360.md.
+/generated/
+
+# Build output, logs, and anything produced by compiling/running the project.
+/out/
+*.log
+/logs/
+
+# Local, machine-specific CMake user presets (paths, toolchain overrides).
+CMakeUserPresets.json

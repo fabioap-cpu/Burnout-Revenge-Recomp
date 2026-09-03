@@ -1,0 +1,105 @@
+[0/2] Re-checking globbed directories...
+[1/100] Building CXX object rexglue-sdk/src/ui/CMakeFiles/rexui.dir/overlay/debug_overlay.cpp.obj
+[2/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_init.cpp.obj
+[3/100] Building CXX object CMakeFiles/burnoutrevenge.dir/src/main.cpp.obj
+[4/100] Linking CXX shared library "D:\GAME RECOMP\rexglue-sdk\out\win-amd64\rexruntime.dll"
+[5/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82120000.0.cpp.obj
+[6/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82130000.0.cpp.obj
+[7/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82110000.0.cpp.obj
+[8/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.820E0000.0.cpp.obj
+[9/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.820F0000.0.cpp.obj
+[10/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.820B0000.0.cpp.obj
+[11/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.820D0000.0.cpp.obj
+[12/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82100000.0.cpp.obj
+[13/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.820A0000.0.cpp.obj
+[14/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.820C0000.0.cpp.obj
+[15/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82090000.0.cpp.obj
+[16/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82150000.0.cpp.obj
+[17/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82140000.0.cpp.obj
+[18/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82160000.0.cpp.obj
+[19/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_register.cpp.obj
+[20/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82170000.0.cpp.obj
+[21/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82180000.0.cpp.obj
+[22/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82190000.0.cpp.obj
+[23/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.821E0000.0.cpp.obj
+[24/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.821A0000.0.cpp.obj
+[25/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82200000.0.cpp.obj
+[26/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.821D0000.0.cpp.obj
+[27/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.821B0000.0.cpp.obj
+[28/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82210000.0.cpp.obj
+[29/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.821F0000.0.cpp.obj
+[30/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.821C0000.0.cpp.obj
+[31/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82220000.0.cpp.obj
+[32/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82230000.0.cpp.obj
+[33/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82250000.0.cpp.obj
+[34/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82240000.0.cpp.obj
+[35/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82260000.0.cpp.obj
+[36/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82270000.0.cpp.obj
+[37/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82280000.0.cpp.obj
+[38/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.822A0000.0.cpp.obj
+[39/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82290000.0.cpp.obj
+[40/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.822B0000.0.cpp.obj
+[41/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.822C0000.0.cpp.obj
+[42/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.822E0000.0.cpp.obj
+[43/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82320000.0.cpp.obj
+[44/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.822F0000.0.cpp.obj
+[45/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82310000.0.cpp.obj
+[46/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82300000.0.cpp.obj
+[47/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82330000.0.cpp.obj
+[48/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82340000.0.cpp.obj
+[49/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.822D0000.0.cpp.obj
+[50/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82350000.0.cpp.obj
+[51/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82360000.0.cpp.obj
+[52/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82380000.0.cpp.obj
+[53/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82370000.0.cpp.obj
+[54/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82390000.0.cpp.obj
+[55/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.823C0000.0.cpp.obj
+[56/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.823B0000.0.cpp.obj
+[57/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.823A0000.0.cpp.obj
+[58/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.823D0000.0.cpp.obj
+[59/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.823E0000.0.cpp.obj
+[60/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82400000.0.cpp.obj
+[61/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82410000.0.cpp.obj
+[62/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.823F0000.0.cpp.obj
+[63/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82430000.0.cpp.obj
+[64/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82420000.0.cpp.obj
+[65/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82440000.0.cpp.obj
+[66/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82450000.0.cpp.obj
+[67/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82470000.0.cpp.obj
+[68/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82460000.0.cpp.obj
+[69/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.824B0000.0.cpp.obj
+[70/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82490000.0.cpp.obj
+[71/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.824A0000.0.cpp.obj
+[72/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82480000.0.cpp.obj
+[73/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.824C0000.0.cpp.obj
+[74/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.824D0000.0.cpp.obj
+[75/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.824E0000.0.cpp.obj
+[76/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.824F0000.0.cpp.obj
+[77/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82510000.0.cpp.obj
+[78/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82500000.0.cpp.obj
+[79/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82520000.0.cpp.obj
+[80/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82530000.0.cpp.obj
+[81/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82540000.0.cpp.obj
+[82/100] Linking CXX shared library "D:\GAME RECOMP\rexglue-sdk\out\win-amd64\rexgpu-xenos.dll"
+[83/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82550000.0.cpp.obj
+[84/100] Building CXX object CMakeFiles/burnoutrevenge.dir/D_/GAME_RECOMP/rexglue-sdk/src/ui/windowed_app_main_sdl.cpp.obj
+[85/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82560000.0.cpp.obj
+[86/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82590000.1.cpp.obj
+[87/100] Building CXX object CMakeFiles/burnoutrevenge.dir/D_/GAME_RECOMP/rexglue-sdk/src/ui/rex_app.cpp.obj
+[88/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82570000.0.cpp.obj
+[89/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82580000.0.cpp.obj
+[90/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.825A0000.0.cpp.obj
+[91/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.825D0000.0.cpp.obj
+[92/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.82590000.0.cpp.obj
+[93/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.825B0000.0.cpp.obj
+[94/100] Building CXX object rexglue-sdk/src/rexglue/CMakeFiles/rexglue.dir/main.cpp.obj
+[95/100] Building CXX object CMakeFiles/burnoutrevenge.dir/generated/burnoutrevenge_default/burnoutrevenge_recomp.825C0000.0.cpp.obj
+[96/100] Linking CXX executable burnoutrevenge.exe
+[97/100] Building CXX object rexglue-sdk/src/rexglue/CMakeFiles/rexglue.dir/commands/codegen_command.cpp.obj
+[98/100] Building CXX object rexglue-sdk/src/rexglue/CMakeFiles/rexglue.dir/commands/init_command.cpp.obj
+D:/GAME RECOMP/rexglue-sdk/src/rexglue/commands/init_command.cpp:390:3: warning: missing field 'graphics' initializer [-Wmissing-designated-field-initializers]
+  390 |   });
+      |   ^
+1 warning generated.
+[99/100] Linking CXX executable "D:\GAME RECOMP\rexglue-sdk\out\win-amd64\rexglue.exe"
+EXIT_CODE=0

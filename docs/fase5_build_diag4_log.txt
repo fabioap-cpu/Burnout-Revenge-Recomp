@@ -1,0 +1,21 @@
+[0/2] Re-checking globbed directories...
+[1/6] Building CXX object rexglue-sdk/src/audio/CMakeFiles/rexaudio.dir/xma_context.cpp.obj
+FAILED: rexglue-sdk/src/audio/CMakeFiles/rexaudio.dir/xma_context.cpp.obj 
+C:\PROGRA~1\LLVM\bin\CLANG_~1.EXE -DNOMINMAX -DREXGLUE_BUILD_CONFIG=\"Release\" -DREX_HAS_D3D12=1 -DREX_PLATFORM_WINDOWS=1 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DTRACY_DELAYED_INIT -DTRACY_ENABLE -DTRACY_FIBERS -DTRACY_IMPORTS -DTRACY_MANUAL_LIFETIME -DTRACY_ON_DEMAND -DWIN32_LEAN_AND_MEAN -I"D:/GAME RECOMP/rexglue-sdk/include" -I"D:/Burnout Revenge Recomp/out/build/win-amd64-release/rexglue-sdk/include" -I"D:/GAME RECOMP/rexglue-sdk/thirdparty/fmt/include" -I"D:/GAME RECOMP/rexglue-sdk/thirdparty/simde" -I"D:/GAME RECOMP/rexglue-sdk/thirdparty/simde/simde" -I"D:/GAME RECOMP/rexglue-sdk/thirdparty/spdlog/include" -I"D:/Burnout Revenge Recomp/out/build/win-amd64-release/rexglue-sdk/thirdparty/sdl3/include-revision" -I"D:/GAME RECOMP/rexglue-sdk/thirdparty/sdl3/include" -I"D:/GAME RECOMP/rexglue-sdk/thirdparty/FFmpeg" -isystem "D:/GAME RECOMP/rexglue-sdk/thirdparty/tomlplusplus/include" -isystem "D:/GAME RECOMP/rexglue-sdk/thirdparty/tracy/public" -march=x86-64-v2 -g -O3 -DNDEBUG -std=c++23 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -fno-strict-aliasing -ffp-model=strict -O3 -DNDEBUG -fno-char8_t -Wall -Wextra -MD -MT rexglue-sdk/src/audio/CMakeFiles/rexaudio.dir/xma_context.cpp.obj -MF rexglue-sdk\src\audio\CMakeFiles\rexaudio.dir\xma_context.cpp.obj.d -o rexglue-sdk/src/audio/CMakeFiles/rexaudio.dir/xma_context.cpp.obj -c "D:/GAME RECOMP/rexglue-sdk/src/audio/xma_context.cpp"
+In file included from D:/GAME RECOMP/rexglue-sdk/src/audio/xma_context.cpp:17:
+D:/GAME RECOMP/rexglue-sdk/include\rex/audio/xma/decoder.h:62:47: warning: unused parameter 'ppc_context' [-Wunused-parameter]
+   62 |   static uint32_t MMIOReadRegisterThunk(void* ppc_context, XmaDecoder* as, uint32_t addr) {
+      |                                               ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/audio/xma/decoder.h:65:44: warning: unused parameter 'ppc_context' [-Wunused-parameter]
+   65 |   static void MMIOWriteRegisterThunk(void* ppc_context, XmaDecoder* as, uint32_t addr,
+      |                                            ^
+D:/GAME RECOMP/rexglue-sdk/src/audio/xma_context.cpp:484:5: error: no member named 'FlushLogging' in namespace 'rex::log'; did you mean simply 'FlushLogging'?
+  484 |     rex::log::FlushLogging();
+      |     ^~~~~~~~~~~~~~~~~~~~~~
+      |     FlushLogging
+D:/GAME RECOMP/rexglue-sdk/include\rex/logging/api.h:81:6: note: 'FlushLogging' declared here
+   81 | void FlushLogging();
+      |      ^
+2 warnings and 1 error generated.
+ninja: build stopped: subcommand failed.
+EXIT_CODE=1

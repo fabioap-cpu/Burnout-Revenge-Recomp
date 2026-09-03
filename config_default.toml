@@ -1,0 +1,89 @@
+# config_default.toml -- Burnout Revenge (Europe) (En,Es,Nl,Sv,Fi)
+#
+# Overrides for cases the automatic scanner/discovery of rexglue cannot
+# resolve on its own. Every entry here is confirmed via Ghidra MCP
+# disassembly (real instruction bytes, real function boundary), not
+# inferred. Format and process follow the pattern already proven in
+# ForzaHorizon2_Recomp/config_default.toml.
+
+# Fase 1 codegen (2026-09-03): `phase_validate` reported 2 unresolved direct
+# branches (UnresolvedCall) -- both are RTTI-style "interface query" dispatch
+# thunks, reached only by a tail-call `b` from a QueryInterface-like routine
+# (caller at 0x82575c1c/0x82575eb4) and/or from vtable data, never by a plain
+# `bl`. rexglue's automatic Discover/GapFill did not create function entries
+# for them before Validate ran.
+
+# Type-tag dispatcher (checks (r4,r5) against several (major,minor) type-tag
+# pairs, then tail-dispatches through a vtable slot at +0x2c/+0x34/+0x3c
+# depending on the match; falls back to a fixed interface pointer
+# `0x8306FFxx`-ish constant otherwise). Confirmed real end: `blr` at
+# 0x8256dc3c, immediately followed at 0x8256dc40 by a structurally identical
+# sibling dispatcher (same opening rlwinm/cmplwi sequence) -- confirms
+# 0x8256dc40 is a genuine separate function, not a continuation. Also
+# referenced from vtable data at 0x82070618. Real size: 50 instructions
+# (0x8256db78 .. 0x8256dc3c inclusive) = 0xC8 bytes.
+[functions."8256DB78"]
+size = 0xC8
+
+# Simple refcount-increment method (`++(*(int*)(this+4)); return`), 5
+# instructions, confirmed real end: `blr` at 0x8256c700, immediately followed
+# at 0x8256c708 by a genuine function prologue (`mfspr r12,LR; stw
+# r12,-0x8(r1); stwu r1,-0x60(r1)`) for the next function -- the 4 bytes
+# between are alignment padding, not part of this function. Referenced from
+# 5 separate vtable-data slots (shared AddRef-style implementation reused
+# across several vtables) plus one tail-call at 0x82575eb4. Real size: 5
+# instructions = 0x14 bytes.
+[functions."8256C6F0"]
+size = 0x14
+
+# Fase 4 (primeiro boot real, 2026-09-03): FATAL "Call to invalid or
+# unregistered function at guest address 0x8256CF20" em runtime -- caso
+# clássico de vtable-miss (nunca chamada por `bl`/`b`, so por bctr indireto
+# através do slot +0x8 da vtable; caller confirmado em 0x825701E0-0x825701F0:
+# lwz vtable, lwz slot+0x8, mtspr CTR, bctrl). Só uma xref, de dados (vtable
+# em 0x82070574). Pequeno "setter" (grava um padrao fixo de tag num struct),
+# 7 instrucoes, fim confirmado: `blr` em 0x8256cf38, seguido de imediato por
+# outro accessor distinto em 0x8256cf40 (getter, corpo diferente) -- confirma
+# fronteira real. Tamanho real: 7 instrucoes = 0x1C bytes.
+[functions."8256CF20"]
+size = 0x1C
+
+# Fase de estabilizacao pos-ALPHA (2026-09-03, apos corrigir o crash de FP no
+# XMA/FFmpeg): FATAL "Call to invalid or unregistered function at guest
+# address 0x82362C78" -- mesma classe vtable-miss das anteriores. Thunk
+# this-adjustor de 2 instrucoes (`addi r3,r3,4; b 0x824239e0`), so alcancado
+# por vtable (xref de dados em 0x82046a04); caller confirmado em
+# 0x82095640-0x8209564c (lwz vtable, lwz slot+0x10, mtspr CTR, bctrl). Fim
+# confirmado: `b` termina a funcao em 0x82362c7c, seguido de imediato por um
+# prologo real (`mfspr r12,LR; stw r12,-0x8(r1); std r30,-0x18(r1)...`) em
+# 0x82362c80. Tamanho real: 2 instrucoes = 0x8 bytes.
+[functions."82362C78"]
+size = 0x8
+
+# Apos corrigir o crash de FP no XMA/FFmpeg (ver METHODOLOGY_XBOX360.md /
+# PROJECT_STATE.md), o boot avancou ate ao ecra real de selecao de idioma
+# (confirmado visualmente pelo utilizador) e crashou ao clicar para
+# selecionar. FATAL "Call to invalid or unregistered function at guest
+# address 0x82575F38" -- mesma classe vtable-miss. Thunk this-adjustor de 2
+# instrucoes (`subi r3,r3,0x10; b 0x82575da0`), so alcancado por vtable (xref
+# de dados em 0x82071630); caller confirmado: dispatcher generico em
+# 0x82573538 (chamado via `bl` de 0x82575c98) recebe o endereco 0x82575F38
+# como argumento (r4) e faz o `bctr` indireto la dentro (callsite 0x8257359c).
+# Fim confirmado: `b` termina a funcao em 0x82575f3c, seguido de imediato por
+# um prologo real (`mfspr r12,LR; bl 0x8259baf8...`) em 0x82575f40. Tamanho
+# real: 2 instrucoes = 0x8 bytes.
+[functions."82575F38"]
+size = 0x8
+
+# Apos criar/gravar o ficheiro de save (confirmado visualmente pelo
+# utilizador: ecra "Saving Burnout Revenge player file"), FATAL "Call to
+# invalid or unregistered function at guest address 0x82363918" -- mesma
+# classe vtable-miss, desta vez uma funcao de copia real (nao um thunk): loop
+# `bdnz` que copia 11 words (44 bytes, provavelmente uma struct de estado do
+# save/perfil) de r4 para r3+0x60, depois marca um flag em r3+0xc2. Duas
+# xrefs de dados (0x820144d8, 0x820163d8) -- funcao partilhada por 2 vtables.
+# Fim confirmado: `blr` em 0x82363944, seguido de imediato por uma funcao
+# distinta em 0x82363948 (padrao diferente: li r9,0; li r8,1). Tamanho real:
+# 12 instrucoes = 0x30 bytes.
+[functions."82363918"]
+size = 0x30

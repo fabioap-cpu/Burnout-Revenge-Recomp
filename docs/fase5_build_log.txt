@@ -1,0 +1,15 @@
+[0/2] Re-checking globbed directories...
+[1/10] Building CXX object rexglue-sdk/src/ui/CMakeFiles/rexui.dir/overlay/debug_overlay.cpp.obj
+[2/10] Linking CXX shared library "D:\GAME RECOMP\rexglue-sdk\out\win-amd64\rexruntime.dll"
+[3/10] Linking CXX shared library "D:\GAME RECOMP\rexglue-sdk\out\win-amd64\rexgpu-xenos.dll"
+[4/10] Building CXX object CMakeFiles/burnoutrevenge.dir/D_/GAME_RECOMP/rexglue-sdk/src/ui/rex_app.cpp.obj
+[5/10] Linking CXX executable burnoutrevenge.exe
+[6/10] Building CXX object rexglue-sdk/src/rexglue/CMakeFiles/rexglue.dir/main.cpp.obj
+[7/10] Building CXX object rexglue-sdk/src/rexglue/CMakeFiles/rexglue.dir/commands/codegen_command.cpp.obj
+[8/10] Building CXX object rexglue-sdk/src/rexglue/CMakeFiles/rexglue.dir/commands/init_command.cpp.obj
+D:/GAME RECOMP/rexglue-sdk/src/rexglue/commands/init_command.cpp:390:3: warning: missing field 'graphics' initializer [-Wmissing-designated-field-initializers]
+  390 |   });
+      |   ^
+1 warning generated.
+[9/10] Linking CXX executable "D:\GAME RECOMP\rexglue-sdk\out\win-amd64\rexglue.exe"
+EXIT_CODE=0

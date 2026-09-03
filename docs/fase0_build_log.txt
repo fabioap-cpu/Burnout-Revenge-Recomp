@@ -1,0 +1,493 @@
+[0/2] Re-checking globbed directories...
+[1/2] Re-running CMake...
+CMake Warning at D:/GAME RECOMP/rexglue-sdk/cmake/rex_version.cmake:33 (message):
+  rex_compute_version: no v* tag reachable from HEAD.  Falling back to
+  0.9.0.0-dev.unknown.  If this is a CI build, ensure tags are fetched
+  (fetch-depth: 0 + fetch-tags: true).  If this is a fork, push tags with:
+  git push <fork-remote> --tags
+Call Stack (most recent call first):
+  D:/GAME RECOMP/rexglue-sdk/cmake/rex_version.cmake:146 (rex_compute_version)
+  D:/GAME RECOMP/rexglue-sdk/CMakeLists.txt:140 (rex_resolve_version)
+
+
+-- xxHash build type: Release
+-- Architecture: AMD64
+-- {fmt} version: 12.1.0
+-- Build type: Release
+-- Build spdlog: 1.17.0
+-- Build type: Release
+-- Generating install
+-- Checking for module 'libusb-1.0>=1.0.16'
+--   Package 'libusb-1.0' not found
+-- Could NOT find LibUSB (missing: LibUSB_LIBRARY LibUSB_INCLUDE_PATH) (found version "LibUSB_VERSION-NOTFOUND")
+-- 
+-- SDL3 was configured with the following options:
+-- 
+-- Platform: Windows-6.2.9200
+-- 64-bit:   TRUE
+-- Compiler: C:/Program Files/LLVM/bin/clang.exe
+-- Revision: SDL-3.5.0-HEAD-HASH-NOTFOUND
+-- Vendor:   
+-- 
+-- Subsystems:
+--   Audio:    ON
+--   Video:    ON
+--   GPU:      ON
+--   Render:   OFF
+--   Camera:   OFF
+--   Joystick: ON
+--   Haptic:   OFF
+--   Hidapi:   ON
+--   Power:    OFF
+--   Sensor:   OFF
+--   Dialog:   OFF
+--   Tray:     OFF
+-- 
+-- Options:
+--   SDL_ALSA                    (Wanted: OFF): OFF
+--   SDL_ALSA_SHARED             (Wanted: OFF): OFF
+--   SDL_ALTIVEC                 (Wanted: OFF): OFF
+--   SDL_ARMNEON                 (Wanted: OFF): OFF
+--   SDL_ASAN                    (Wanted: OFF): OFF
+--   SDL_ASSEMBLY                (Wanted: ON): ON
+--   SDL_ASSERTIONS              (Wanted: auto): auto
+--   SDL_AVX                     (Wanted: ON): ON
+--   SDL_AVX2                    (Wanted: ON): ON
+--   SDL_AVX512F                 (Wanted: ON): ON
+--   SDL_BACKGROUNDING_SIGNAL    (Wanted: OFF): OFF
+--   SDL_CCACHE                  (Wanted: OFF): OFF
+--   SDL_CLANG_TIDY              (Wanted: OFF): OFF
+--   SDL_CLOCK_GETTIME           (Wanted: OFF): OFF
+--   SDL_COCOA                   (Wanted: OFF): OFF
+--   SDL_DBUS                    (Wanted: OFF): OFF
+--   SDL_DEPS_SHARED             (Wanted: ON): OFF
+--   SDL_DIRECTX                 (Wanted: ON): ON
+--   SDL_DISKAUDIO               (Wanted: OFF): OFF
+--   SDL_DLOPEN_NOTES            (Wanted: OFF): OFF
+--   SDL_DUMMYAUDIO              (Wanted: OFF): OFF
+--   SDL_DUMMYCAMERA             (Wanted: OFF): OFF
+--   SDL_DUMMYVIDEO              (Wanted: OFF): OFF
+--   SDL_EXAMPLES                (Wanted: OFF): OFF
+--   SDL_EXAMPLES_LINK_SHARED    (Wanted: OFF): OFF
+--   SDL_FOREGROUNDING_SIGNAL    (Wanted: OFF): OFF
+--   SDL_FRIBIDI                 (Wanted: OFF): OFF
+--   SDL_FRIBIDI_SHARED          (Wanted: OFF): OFF
+--   SDL_GCC_ATOMICS             (Wanted: ON): ON
+--   SDL_GPU_OPENXR              (Wanted: ON): ON
+--   SDL_HIDAPI                  (Wanted: ON): ON
+--   SDL_HIDAPI_JOYSTICK         (Wanted: ON): ON
+--   SDL_HIDAPI_LIBUSB           (Wanted: ON): OFF
+--   SDL_HIDAPI_LIBUSB_SHARED    (Wanted: ON): OFF
+--   SDL_IBUS                    (Wanted: OFF): OFF
+--   SDL_INSTALL                 (Wanted: ON): OFF
+--   SDL_INSTALL_TESTS           (Wanted: OFF): OFF
+--   SDL_JACK                    (Wanted: OFF): OFF
+--   SDL_JACK_SHARED             (Wanted: OFF): OFF
+--   SDL_KMSDRM                  (Wanted: OFF): OFF
+--   SDL_KMSDRM_SHARED           (Wanted: OFF): OFF
+--   SDL_LASX                    (Wanted: OFF): OFF
+--   SDL_LIBC                    (Wanted: ON): ON
+--   SDL_LIBICONV                (Wanted: OFF): OFF
+--   SDL_LIBTHAI                 (Wanted: OFF): OFF
+--   SDL_LIBTHAI_SHARED          (Wanted: OFF): OFF
+--   SDL_LIBUDEV                 (Wanted: ON): OFF
+--   SDL_LIBURING                (Wanted: OFF): OFF
+--   SDL_LSX                     (Wanted: OFF): OFF
+--   SDL_METAL                   (Wanted: OFF): OFF
+--   SDL_MMX                     (Wanted: ON): ON
+--   SDL_OFFSCREEN               (Wanted: ON): ON
+--   SDL_OPENGL                  (Wanted: OFF): OFF
+--   SDL_OPENGLES                (Wanted: OFF): OFF
+--   SDL_OPENVR                  (Wanted: OFF): OFF
+--   SDL_OSS                     (Wanted: OFF): OFF
+--   SDL_PIPEWIRE                (Wanted: OFF): OFF
+--   SDL_PIPEWIRE_SHARED         (Wanted: OFF): OFF
+--   SDL_PTHREADS                (Wanted: OFF): OFF
+--   SDL_PTHREADS_SEM            (Wanted: OFF): OFF
+--   SDL_PULSEAUDIO              (Wanted: OFF): OFF
+--   SDL_PULSEAUDIO_SHARED       (Wanted: OFF): OFF
+--   SDL_RENDER_D3D              (Wanted: OFF): OFF
+--   SDL_RENDER_D3D11            (Wanted: OFF): OFF
+--   SDL_RENDER_D3D12            (Wanted: OFF): OFF
+--   SDL_RENDER_GPU              (Wanted: OFF): OFF
+--   SDL_RENDER_METAL            (Wanted: OFF): OFF
+--   SDL_RENDER_VULKAN           (Wanted: OFF): OFF
+--   SDL_ROCKCHIP                (Wanted: OFF): OFF
+--   SDL_RPATH                   (Wanted: OFF): OFF
+--   SDL_RPI                     (Wanted: OFF): OFF
+--   SDL_SNDIO                   (Wanted: OFF): OFF
+--   SDL_SNDIO_SHARED            (Wanted: OFF): OFF
+--   SDL_SSE                     (Wanted: ON): ON
+--   SDL_SSE2                    (Wanted: ON): ON
+--   SDL_SSE3                    (Wanted: ON): ON
+--   SDL_SSE4_1                  (Wanted: ON): ON
+--   SDL_SSE4_2                  (Wanted: ON): ON
+--   SDL_SYSTEM_ICONV            (Wanted: OFF): OFF
+--   SDL_TESTS                   (Wanted: OFF): OFF
+--   SDL_TESTS_LINK_SHARED       (Wanted: OFF): OFF
+--   SDL_UNINSTALL               (Wanted: OFF): OFF
+--   SDL_VIRTUAL_JOYSTICK        (Wanted: ON): ON
+--   SDL_VIVANTE                 (Wanted: OFF): OFF
+--   SDL_VULKAN                  (Wanted: OFF): OFF
+--   SDL_WASAPI                  (Wanted: ON): ON
+--   SDL_WAYLAND                 (Wanted: OFF): OFF
+--   SDL_WAYLAND_LIBDECOR        (Wanted: OFF): OFF
+--   SDL_WAYLAND_LIBDECOR_SHARED (Wanted: OFF): OFF
+--   SDL_WAYLAND_SHARED          (Wanted: OFF): OFF
+--   SDL_X11                     (Wanted: OFF): OFF
+--   SDL_X11_SHARED              (Wanted: OFF): OFF
+--   SDL_X11_XCURSOR             (Wanted: OFF): OFF
+--   SDL_X11_XDBE                (Wanted: OFF): OFF
+--   SDL_X11_XFIXES              (Wanted: OFF): OFF
+--   SDL_X11_XINPUT              (Wanted: OFF): OFF
+--   SDL_X11_XRANDR              (Wanted: OFF): OFF
+--   SDL_X11_XSCRNSAVER          (Wanted: OFF): OFF
+--   SDL_X11_XSHAPE              (Wanted: OFF): OFF
+--   SDL_X11_XSYNC               (Wanted: OFF): OFF
+--   SDL_X11_XTEST               (Wanted: OFF): OFF
+--   SDL_XINPUT                  (Wanted: ON): ON
+-- 
+--  Build Shared Library: OFF
+--  Build Static Library: ON
+-- 
+-- Enabled backends:
+--   Video drivers: offscreen windows
+--   Render drivers: 
+--   GPU drivers: d3d12 openxr
+--   Audio drivers: dsound wasapi
+--   Joystick drivers: dinput gameinput hidapi rawinput virtual wgi xinput
+--   Camera drivers: dummy
+-- 
+-- ===========================================
+-- ReXGlue Configuration Summary:
+--   Version: 0.9.0.0-dev.unknown
+--   Platform: win-amd64
+--   Compiler: Clang 22.1.8
+--   Configurations: 
+--   Output Dir: D:/GAME RECOMP/rexglue-sdk/out/win-amd64
+--   C++ Standard: C++23
+--   Graphics: D3D12=ON Vulkan=OFF
+--   FidelityFX: OFF
+--   Tracy: ON
+--   Perf Counters: ON
+-- ===========================================
+-- Using ReXGlue SDK from source tree: D:/GAME RECOMP/rexglue-sdk
+-- Configuring done (0.6s)
+-- Generating done (0.3s)
+-- Build files have been written to: D:/Burnout Revenge Recomp/out/build/win-amd64-release
+[0/4] Re-checking globbed directories...
+[1/62] Building C object rexglue-sdk/thirdparty/sdl3/CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.obj
+[2/62] Building C object rexglue-sdk/thirdparty/sdl3/CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.obj
+[3/62] Building C object rexglue-sdk/thirdparty/sdl3/CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.obj
+[4/62] Building C object rexglue-sdk/thirdparty/sdl3/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.obj
+[5/62] Building CXX object CMakeFiles/burnoutrevenge.dir/src/main.cpp.obj
+FAILED: CMakeFiles/burnoutrevenge.dir/src/main.cpp.obj 
+C:\PROGRA~1\LLVM\bin\CLANG_~1.EXE -DNOMINMAX -DREXGLUE_BUILD_CONFIG=\"Release\" -DREX_HAS_D3D12=1 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DTRACY_DELAYED_INIT -DTRACY_ENABLE -DTRACY_FIBERS -DTRACY_IMPORTS -DTRACY_MANUAL_LIFETIME -DTRACY_ON_DEMAND -DWIN32_LEAN_AND_MEAN -I"D:/Burnout Revenge Recomp" -I"D:/Burnout Revenge Recomp/src" -I"D:/GAME RECOMP/rexglue-sdk/include" -I"D:/Burnout Revenge Recomp/out/build/win-amd64-release/rexglue-sdk/include" -I"D:/GAME RECOMP/rexglue-sdk/thirdparty/simde" -I"D:/GAME RECOMP/rexglue-sdk/thirdparty/simde/simde" -I"D:/GAME RECOMP/rexglue-sdk/thirdparty/fmt/include" -I"D:/GAME RECOMP/rexglue-sdk/thirdparty/spdlog/include" -I"D:/Burnout Revenge Recomp/out/build/win-amd64-release/rexglue-sdk/thirdparty/sdl3/include-revision" -I"D:/GAME RECOMP/rexglue-sdk/thirdparty/sdl3/include" -I"D:/GAME RECOMP/rexglue-sdk/thirdparty/dxc/include" -I"D:/GAME RECOMP/rexglue-sdk/thirdparty/imgui" -isystem "D:/GAME RECOMP/rexglue-sdk/thirdparty/tomlplusplus/include" -isystem "D:/GAME RECOMP/rexglue-sdk/thirdparty/tracy/public" -march=x86-64-v2 -O3 -DNDEBUG -std=gnu++23 -D_DLL -D_MT -Xclang --dependent-lib=msvcrt -msse4.1 -MD -MT CMakeFiles/burnoutrevenge.dir/src/main.cpp.obj -MF CMakeFiles\burnoutrevenge.dir\src\main.cpp.obj.d -o CMakeFiles/burnoutrevenge.dir/src/main.cpp.obj -c "D:/Burnout Revenge Recomp/src/main.cpp"
+D:/Burnout Revenge Recomp/src/main.cpp:3:10: fatal error: 'generated/burnoutrevenge_default/burnoutrevenge_init.h' file not found
+    3 | #include "generated/burnoutrevenge_default/burnoutrevenge_init.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+[6/62] Building CXX object rexglue-sdk/src/graphics/CMakeFiles/rexgpu-xenos.dir/format/ucode.cpp.obj
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/format/ucode.cpp:12:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/format/ucode.h:17:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/xenos.h:1621:70: warning: unused parameter 'one_reg' [-Wunused-parameter]
+ 1621 | inline uint32_t MakePacketType0(uint16_t index, uint16_t count, bool one_reg = false) {
+      |                                                                      ^
+1 warning generated.
+[7/62] Building CXX object rexglue-sdk/src/graphics/CMakeFiles/rexgpu-xenos.dir/registers.cpp.obj
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/registers.cpp:12:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/registers.h:18:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/xenos.h:1621:70: warning: unused parameter 'one_reg' [-Wunused-parameter]
+ 1621 | inline uint32_t MakePacketType0(uint16_t index, uint16_t count, bool one_reg = false) {
+      |                                                                      ^
+1 warning generated.
+[8/62] Building CXX object rexglue-sdk/src/graphics/CMakeFiles/rexgpu-xenos.dir/sampler_info.cpp.obj
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/sampler_info.cpp:15:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/sampler_info.h:14:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/shader/shader.h:22:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/format/ucode.h:17:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/xenos.h:1621:70: warning: unused parameter 'one_reg' [-Wunused-parameter]
+ 1621 | inline uint32_t MakePacketType0(uint16_t index, uint16_t count, bool one_reg = false) {
+      |                                                                      ^
+1 warning generated.
+[9/62] Building CXX object rexglue-sdk/src/graphics/CMakeFiles/rexgpu-xenos.dir/flags.cpp.obj
+[10/62] Building CXX object rexglue-sdk/src/ui/CMakeFiles/rexui.dir/overlay/debug_overlay.cpp.obj
+[11/62] Building CXX object rexglue-sdk/src/graphics/CMakeFiles/rexgpu-xenos.dir/pipeline/shader/shader.cpp.obj
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/pipeline/shader/shader.cpp:19:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/format/ucode.h:17:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/xenos.h:1621:70: warning: unused parameter 'one_reg' [-Wunused-parameter]
+ 1621 | inline uint32_t MakePacketType0(uint16_t index, uint16_t count, bool one_reg = false) {
+      |                                                                      ^
+1 warning generated.
+[12/62] Building CXX object rexglue-sdk/src/graphics/CMakeFiles/rexgpu-xenos.dir/packet_disassembler.cpp.obj
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/packet_disassembler.cpp:12:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/packet_disassembler.h:15:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/register_file.h:19:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/registers.h:18:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/xenos.h:1621:70: warning: unused parameter 'one_reg' [-Wunused-parameter]
+ 1621 | inline uint32_t MakePacketType0(uint16_t index, uint16_t count, bool one_reg = false) {
+      |                                                                      ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/packet_disassembler.cpp:86:59: warning: unused parameter 'base_ptr' [-Wunused-parameter]
+   86 | bool PacketDisassembler::DisasmPacketType2(const uint8_t* base_ptr, uint32_t packet,
+      |                                                           ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/packet_disassembler.cpp:86:78: warning: unused parameter 'packet' [-Wunused-parameter]
+   86 | bool PacketDisassembler::DisasmPacketType2(const uint8_t* base_ptr, uint32_t packet,
+      |                                                                              ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/packet_disassembler.cpp:305:16: warning: variable 'address' set but not used [-Wunused-but-set-variable]
+  305 |       uint32_t address = memory::load_and_swap<uint32_t>(ptr + 0);
+      |                ^
+4 warnings generated.
+[13/62] Building CXX object rexglue-sdk/src/graphics/CMakeFiles/rexgpu-xenos.dir/trace_writer.cpp.obj
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/trace_writer.cpp:15:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/trace_writer.h:19:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/registers.h:18:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/xenos.h:1621:70: warning: unused parameter 'one_reg' [-Wunused-parameter]
+ 1621 | inline uint32_t MakePacketType0(uint16_t index, uint16_t count, bool one_reg = false) {
+      |                                                                      ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/trace_writer.cpp:85:71: warning: unused parameter 'count' [-Wunused-parameter]
+   85 | void TraceWriter::WritePrimaryBufferStart(uint32_t base_ptr, uint32_t count) {
+      |                                                                       ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/trace_writer.cpp:107:72: warning: unused parameter 'count' [-Wunused-parameter]
+  107 | void TraceWriter::WriteIndirectBufferStart(uint32_t base_ptr, uint32_t count) {
+      |                                                                        ^
+3 warnings generated.
+[14/62] Building CXX object CMakeFiles/burnoutrevenge.dir/D_/GAME_RECOMP/rexglue-sdk/src/ui/windowed_app_main_sdl.cpp.obj
+[15/62] Building CXX object rexglue-sdk/src/graphics/CMakeFiles/rexgpu-xenos.dir/util/draw_extent_estimator.cpp.obj
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/util/draw_extent_estimator.cpp:20:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/format/ucode.h:17:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/xenos.h:1621:70: warning: unused parameter 'one_reg' [-Wunused-parameter]
+ 1621 | inline uint32_t MakePacketType0(uint16_t index, uint16_t count, bool one_reg = false) {
+      |                                                                      ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/util/draw_extent_estimator.cpp:291:28: warning: comparison of integers of different signs: 'int32_t' (aka 'int') and 'const uint32_t' (aka 'const unsigned int') [-Wsign-compare]
+  291 |         if (scissor_bottom >= xenos::kTexture2DCubeMaxWidthHeight) {
+      |             ~~~~~~~~~~~~~~ ^  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/GAME RECOMP/rexglue-sdk/src/graphics/util/draw_extent_estimator.cpp:301:29: warning: comparison of integers of different signs: 'int32_t' (aka 'int') and 'const uint32_t' (aka 'const unsigned int') [-Wsign-compare]
+  301 |           if (scissor_right >= xenos::kTexture2DCubeMaxWidthHeight) {
+      |               ~~~~~~~~~~~~~ ^  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3 warnings generated.
+[16/62] Building CXX object rexglue-sdk/src/graphics/CMakeFiles/rexgpu-xenos.dir/plugin_main.cpp.obj
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/plugin_main.cpp:18:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/d3d12/graphics_system.h:16:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/command_processor.h:24:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/register_file.h:19:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/registers.h:18:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/xenos.h:1621:70: warning: unused parameter 'one_reg' [-Wunused-parameter]
+ 1621 | inline uint32_t MakePacketType0(uint16_t index, uint16_t count, bool one_reg = false) {
+      |                                                                      ^
+1 warning generated.
+[17/62] Building CXX object rexglue-sdk/src/graphics/CMakeFiles/rexgpu-xenos.dir/util/draw.cpp.obj
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/util/draw.cpp:20:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:22:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/util.h:15:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/info.h:18:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/xenos.h:1621:70: warning: unused parameter 'one_reg' [-Wunused-parameter]
+ 1621 | inline uint32_t MakePacketType0(uint16_t index, uint16_t count, bool one_reg = false) {
+      |                                                                      ^
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/util/draw.cpp:20:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:167:53: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  167 |     TextureKey(const TextureKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                     ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:167:53: note: explicitly cast the pointer to silence this warning
+  167 |     TextureKey(const TextureKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                     ^
+      |                                                     (void*)
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:169:19: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  169 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:169:19: note: explicitly cast the pointer to silence this warning
+  169 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+      |                   (void*)
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:174:19: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  174 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:174:19: note: explicitly cast the pointer to silence this warning
+  174 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+      |                   (void*)
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:223:70: warning: unused parameter 'global_lock' [-Wunused-parameter]
+  223 |     bool base_outdated(const std::unique_lock<std::recursive_mutex>& global_lock) const {
+      |                                                                      ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:226:70: warning: unused parameter 'global_lock' [-Wunused-parameter]
+  226 |     bool mips_outdated(const std::unique_lock<std::recursive_mutex>& global_lock) const {
+      |                                                                      ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:467:19: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureBinding' [-Wnontrivial-memcall]
+  467 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/texture/cache.h:467:19: note: explicitly cast the pointer to silence this warning
+  467 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+      |                   (void*)
+7 warnings generated.
+[18/62] Building CXX object rexglue-sdk/src/graphics/CMakeFiles/rexgpu-xenos.dir/register_file.cpp.obj
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/register_file.cpp:14:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/register_file.h:19:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/registers.h:18:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/xenos.h:1621:70: warning: unused parameter 'one_reg' [-Wunused-parameter]
+ 1621 | inline uint32_t MakePacketType0(uint16_t index, uint16_t count, bool one_reg = false) {
+      |                                                                      ^
+1 warning generated.
+[19/62] Building CXX object rexglue-sdk/src/graphics/CMakeFiles/rexgpu-xenos.dir/graphics_system.cpp.obj
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/graphics_system.cpp:12:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/graphics_system.h:24:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/register_file.h:19:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/registers.h:18:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/xenos.h:1621:70: warning: unused parameter 'one_reg' [-Wunused-parameter]
+ 1621 | inline uint32_t MakePacketType0(uint16_t index, uint16_t count, bool one_reg = false) {
+      |                                                                      ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/graphics_system.cpp:110:51: warning: unused parameter 'statically_from_ui_thread' [-Wunused-parameter]
+  110 |   auto loss_cb = [this](bool is_responsible, bool statically_from_ui_thread) {
+      |                                                   ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/graphics_system.cpp:243:50: warning: unused parameter 'ppc_context' [-Wunused-parameter]
+  243 | uint32_t GraphicsSystem::ReadRegisterThunk(void* ppc_context, GraphicsSystem* gs, uint32_t addr) {
+      |                                                  ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/graphics_system.cpp:247:47: warning: unused parameter 'ppc_context' [-Wunused-parameter]
+  247 | void GraphicsSystem::WriteRegisterThunk(void* ppc_context, GraphicsSystem* gs, uint32_t addr,
+      |                                               ^
+4 warnings generated.
+[20/62] Building CXX object rexglue-sdk/src/graphics/CMakeFiles/rexgpu-xenos.dir/primitive_processor.cpp.obj
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/primitive_processor.cpp:21:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/pipeline/shader/shader.h:22:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/format/ucode.h:17:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/xenos.h:1621:70: warning: unused parameter 'one_reg' [-Wunused-parameter]
+ 1621 | inline uint32_t MakePacketType0(uint16_t index, uint16_t count, bool one_reg = false) {
+      |                                                                      ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/primitive_processor.cpp:271:43: warning: loop variable 'cache_map_entry' of type 'const std::pair<CacheKey, size_t> &' (aka 'const std::pair<CacheKey, unsigned long long> &') binds to a temporary constructed from type 'reference' (aka 'std::pair<const rex::graphics::PrimitiveProcessor::CacheKey, unsigned long long> &') [-Wrange-loop-construct]
+  271 |   for (const std::pair<CacheKey, size_t>& cache_map_entry : cache_map_) {
+      |                                           ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/primitive_processor.cpp:271:8: note: use non-reference type 'std::pair<CacheKey, size_t>' (aka 'std::pair<CacheKey, unsigned long long>') to make construction explicit or type 'const value_type &' (aka 'const std::pair<const rex::graphics::PrimitiveProcessor::CacheKey, unsigned long long> &') to prevent copying
+  271 |   for (const std::pair<CacheKey, size_t>& cache_map_entry : cache_map_) {
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/GAME RECOMP/rexglue-sdk/src/graphics/primitive_processor.cpp:1254:75: warning: unused parameter 'index_transform' [-Wunused-parameter]
+ 1254 |                                          const PassthroughIndexTransform& index_transform) {
+      |                                                                           ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/primitive_processor.cpp:1264:75: warning: unused parameter 'index_transform' [-Wunused-parameter]
+ 1264 |                                          const PassthroughIndexTransform& index_transform) {
+      |                                                                           ^
+4 warnings generated.
+[21/62] Building CXX object CMakeFiles/burnoutrevenge.dir/D_/GAME_RECOMP/rexglue-sdk/src/ui/rex_app.cpp.obj
+[22/62] Building CXX object rexglue-sdk/src/graphics/CMakeFiles/rexgpu-xenos.dir/command_processor.cpp.obj
+In file included from D:/GAME RECOMP/rexglue-sdk/src/graphics/command_processor.cpp:25:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/command_processor.h:24:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/register_file.h:19:
+In file included from D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/registers.h:18:
+D:/GAME RECOMP/rexglue-sdk/include\rex/graphics/xenos.h:1621:70: warning: unused parameter 'one_reg' [-Wunused-parameter]
+ 1621 | inline uint32_t MakePacketType0(uint16_t index, uint16_t count, bool one_reg = false) {
+      |                                                                      ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/command_processor.cpp:173:77: warning: unused parameter 'cache_root' [-Wunused-parameter]
+  173 | void CommandProcessor::InitializeShaderStorage(const std::filesystem::path& cache_root,
+      |                                                                             ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/command_processor.cpp:174:57: warning: unused parameter 'title_id' [-Wunused-parameter]
+  174 |                                                uint32_t title_id, bool blocking) {}
+      |                                                         ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/command_processor.cpp:174:72: warning: unused parameter 'blocking' [-Wunused-parameter]
+  174 |                                                uint32_t title_id, bool blocking) {}
+      |                                                                        ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/command_processor.cpp:852:80: warning: unused parameter 'packet' [-Wunused-parameter]
+  852 | bool CommandProcessor::ExecutePacketType2(memory::RingBuffer* reader, uint32_t packet) {
+      |                                                                                ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/command_processor.cpp:1050:88: warning: unused parameter 'packet' [-Wunused-parameter]
+ 1050 | bool CommandProcessor::ExecutePacketType3_ME_INIT(memory::RingBuffer* reader, uint32_t packet,
+      |                                                                                        ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/command_processor.cpp:1061:84: warning: unused parameter 'packet' [-Wunused-parameter]
+ 1061 | bool CommandProcessor::ExecutePacketType3_NOP(memory::RingBuffer* reader, uint32_t packet,
+      |                                                                                    ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/command_processor.cpp:1069:90: warning: unused parameter 'packet' [-Wunused-parameter]
+ 1069 | bool CommandProcessor::ExecutePacketType3_INTERRUPT(memory::RingBuffer* reader, uint32_t packet,
+      |                                                                                          ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/command_processor.cpp:1070:62: warning: unused parameter 'count' [-Wunused-parameter]
+ 1070 |                                                     uint32_t count) {
+      |                                                              ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/command_processor.cpp:1085:88: warning: unused parameter 'packet' [-Wunused-parameter]
+ 1085 | bool CommandProcessor::ExecutePacketType3_XE_SWAP(memory::RingBuffer* reader, uint32_t packet,
+      |                                                                                        ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/command_processor.cpp:1124:68: warning: unused parameter 'packet' [-Wunused-parameter]
+ 1124 |                                                           uint32_t packet, uint32_t count) {
+      |                                                                    ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/command_processor.cpp:1124:85: warning: unused parameter 'count' [-Wunused-parameter]
+ 1124 |                                                           uint32_t packet, uint32_t count) {
+      |                                                                                     ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/command_processor.cpp:1134:93: warning: unused parameter 'packet' [-Wunused-parameter]
+ 1134 | bool CommandProcessor::ExecutePacketType3_WAIT_REG_MEM(memory::RingBuffer* reader, uint32_t packet,
+      |                                                                                             ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/command_processor.cpp:1135:65: warning: unused parameter 'count' [-Wunused-parameter]
+ 1135 |                                                        uint32_t count) {
+      |                                                                 ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/command_processor.cpp:1215:88: warning: unused parameter 'packet' [-Wunused-parameter]
+ 1215 | bool CommandProcessor::ExecutePacketType3_REG_RMW(memory::RingBuffer* reader, uint32_t packet,
+      |                                                                                        ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/command_processor.cpp:1216:60: warning: unused parameter 'count' [-Wunused-parameter]
+ 1216 |                                                   uint32_t count) {
+      |                                                            ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/command_processor.cpp:1241:91: warning: unused parameter 'packet' [-Wunused-parameter]
+ 1241 | bool CommandProcessor::ExecutePacketType3_REG_TO_MEM(memory::RingBuffer* reader, uint32_t packet,
+      |                                                                                           ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/command_processor.cpp:1242:63: warning: unused parameter 'count' [-Wunused-parameter]
+ 1242 |                                                      uint32_t count) {
+      |                                                               ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/command_processor.cpp:1260:90: warning: unused parameter 'packet' [-Wunused-parameter]
+ 1260 | bool CommandProcessor::ExecutePacketType3_MEM_WRITE(memory::RingBuffer* reader, uint32_t packet,
+      |                                                                                          ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/command_processor.cpp:1277:91: warning: unused parameter 'packet' [-Wunused-parameter]
+ 1277 | bool CommandProcessor::ExecutePacketType3_COND_WRITE(memory::RingBuffer* reader, uint32_t packet,
+      |                                                                                           ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/command_processor.cpp:1278:63: warning: unused parameter 'count' [-Wunused-parameter]
+ 1278 |                                                      uint32_t count) {
+      |                                                               ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/command_processor.cpp:1342:92: warning: unused parameter 'packet' [-Wunused-parameter]
+ 1342 | bool CommandProcessor::ExecutePacketType3_EVENT_WRITE(memory::RingBuffer* reader, uint32_t packet,
+      |                                                                                            ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/command_processor.cpp:1359:68: warning: unused parameter 'packet' [-Wunused-parameter]
+ 1359 |                                                           uint32_t packet, uint32_t count) {
+      |                                                                    ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/command_processor.cpp:1359:85: warning: unused parameter 'count' [-Wunused-parameter]
+ 1359 |                                                           uint32_t packet, uint32_t count) {
+      |                                                                                     ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/command_processor.cpp:1384:68: warning: unused parameter 'packet' [-Wunused-parameter]
+ 1384 |                                                           uint32_t packet, uint32_t count) {
+      |                                                                    ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/command_processor.cpp:1384:85: warning: unused parameter 'count' [-Wunused-parameter]
+ 1384 |                                                           uint32_t packet, uint32_t count) {
+      |                                                                                     ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/command_processor.cpp:1413:68: warning: unused parameter 'packet' [-Wunused-parameter]
+ 1413 |                                                           uint32_t packet, uint32_t count) {
+      |                                                                    ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/command_processor.cpp:1449:81: warning: unused parameter 'viz_query_condition' [-Wunused-parameter]
+ 1449 |                                               const char* opcode_name, uint32_t viz_query_condition,
+      |                                                                                 ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/command_processor.cpp:1610:93: warning: unused parameter 'packet' [-Wunused-parameter]
+ 1610 | bool CommandProcessor::ExecutePacketType3_SET_CONSTANT(memory::RingBuffer* reader, uint32_t packet,
+      |                                                                                             ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/command_processor.cpp:1643:94: warning: unused parameter 'packet' [-Wunused-parameter]
+ 1643 | bool CommandProcessor::ExecutePacketType3_SET_CONSTANT2(memory::RingBuffer* reader, uint32_t packet,
+      |                                                                                              ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/command_processor.cpp:1652:70: warning: unused parameter 'packet' [-Wunused-parameter]
+ 1652 |                                                             uint32_t packet, uint32_t count) {
+      |                                                                      ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/command_processor.cpp:1652:87: warning: unused parameter 'count' [-Wunused-parameter]
+ 1652 |                                                             uint32_t packet, uint32_t count) {
+      |                                                                                       ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/command_processor.cpp:1691:73: warning: unused parameter 'packet' [-Wunused-parameter]
+ 1691 |                                                                uint32_t packet, uint32_t count) {
+      |                                                                         ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/command_processor.cpp:1698:88: warning: unused parameter 'packet' [-Wunused-parameter]
+ 1698 | bool CommandProcessor::ExecutePacketType3_IM_LOAD(memory::RingBuffer* reader, uint32_t packet,
+      |                                                                                        ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/command_processor.cpp:1699:60: warning: unused parameter 'count' [-Wunused-parameter]
+ 1699 |                                                   uint32_t count) {
+      |                                                            ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/command_processor.cpp:1729:70: warning: unused parameter 'packet' [-Wunused-parameter]
+ 1729 |                                                             uint32_t packet, uint32_t count) {
+      |                                                                      ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/command_processor.cpp:1760:69: warning: unused parameter 'packet' [-Wunused-parameter]
+ 1760 |                                                            uint32_t packet, uint32_t count) {
+      |                                                                     ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/command_processor.cpp:1760:86: warning: unused parameter 'count' [-Wunused-parameter]
+ 1760 |                                                            uint32_t packet, uint32_t count) {
+      |                                                                                      ^
+D:/GAME RECOMP/rexglue-sdk/src/graphics/command_processor.cpp:1767:90: warning: unused parameter 'packet' [-Wunused-parameter]
+ 1767 | bool CommandProcessor::ExecutePacketType3_VIZ_QUERY(memory::RingBuffer* reader, uint32_t packet,
+      |                                                                                          ^
+39 warnings generated.
+ninja: build stopped: subcommand failed.
+EXIT_CODE=1

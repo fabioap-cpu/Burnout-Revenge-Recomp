@@ -1,0 +1,12 @@
+[0/2] Re-checking globbed directories...
+[1/6] Building CXX object rexglue-sdk/src/audio/CMakeFiles/rexaudio.dir/xma_context.cpp.obj
+In file included from D:/GAME RECOMP/rexglue-sdk/src/audio/xma_context.cpp:17:
+D:/GAME RECOMP/rexglue-sdk/include\rex/audio/xma/decoder.h:62:47: warning: unused parameter 'ppc_context' [-Wunused-parameter]
+   62 |   static uint32_t MMIOReadRegisterThunk(void* ppc_context, XmaDecoder* as, uint32_t addr) {
+      |                                               ^
+D:/GAME RECOMP/rexglue-sdk/include\rex/audio/xma/decoder.h:65:44: warning: unused parameter 'ppc_context' [-Wunused-parameter]
+   65 |   static void MMIOWriteRegisterThunk(void* ppc_context, XmaDecoder* as, uint32_t addr,
+      |                                            ^
+2 warnings generated.
+[2/6] Linking CXX shared library "D:\GAME RECOMP\rexglue-sdk\out\win-amd64\rexruntime.dll"
+EXIT_CODE=0
